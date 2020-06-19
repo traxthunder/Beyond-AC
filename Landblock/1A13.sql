@@ -263,3 +263,7 @@ VALUES (0x71A13033, 5000817, 0x1A130030, 128.167, 171.544, 0.055, 0.989619, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A13034, 5000818, 0x1A13003C, 177.10193, 74.123024, 0.054999996, -0.4939769, 0, 0, -0.869475, False, '2020-06-17 13:36:13'); /* WitherAttack */
 /* @teleloc 0x1A13003C [177.101929 74.123024 0.055000] -0.493977 0.000000 0.000000 -0.869475 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71A13035, 5000852, 0x1A130036, 150.57907, 137.75461, 0.054999996, -0.13831884, 0, 0, -0.99038774, False, '2020-06-19 17:06:06'); /* RithWait */
+/* @teleloc 0x1A130036 [150.579071 137.754608 0.055000] -0.138319 0.000000 0.000000 -0.990388 */
