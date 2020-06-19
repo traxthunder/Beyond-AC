@@ -173,4 +173,5 @@ VALUES (5000334, 2, 46345,  1, 93, 0.4, True) /* Create  (46345) for Wield */
      , (5000334, 2,   127,  1, 93, 0, True) /* Create Pants (127) for Wield */
      , (5000334, 2, 52193,  1, 93, 0, True) /* Create Mukkir Wings (52193) for Wield */
      , (5000334, 2,  5937,  1, 0, 0, True) /* Create Impious Staff (5937) for Wield */
-     , (5000334, 9,  5000394,  0, 0, .2, True) /* Create Impious Staff (5937) for Wield */;
+     , (5000334, 9,  5000394,  0, 0, .2, True) /* Create Impious Staff (5937) for Wield */
+     , (5000334, 9,  5000507,  0, 0, .2, True) /* Create Impious Staff (5937) for Wield */;;

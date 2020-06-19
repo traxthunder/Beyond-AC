@@ -160,4 +160,5 @@ VALUES (5000336, 2, 29544,  1, 93, 0, True) /* Create Marksman's Robe (29544) fo
      , (5000336, 2,   107,  1, 93, 0, True) /* Create Sollerets (107) for Wield */
      , (5000336, 2, 666699,  1, 93, 0, True) /* Create  (666699) for Wield */
      , (5000336, 2, 30371,  1, 0, 0, True) /* Create Dread Marauder Shield (30371) for Wield */
-     , (5000336, 9,  5000394,  0, 0, .2, True) /* Create Impious Staff (5937) for Wield */;
+     , (5000336, 9,  5000394,  0, 0, .2, True) /* Create Impious Staff (5937) for Wield */
+     , (5000336, 9,  5000507,  0, 0, .2, True) /* Create Impious Staff (5937) for Wield */;

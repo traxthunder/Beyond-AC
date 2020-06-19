@@ -169,4 +169,5 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (5000338, 2,  8636,  1, 39, 0, True) /* Create Hoory Mattekar Robe (8636) for Wield */
      , (5000338, 2,   130,  1, 0, 0, True) /* Create Shirt (130) for Wield */
      , (5000338, 2,  5937,  1, 0, 0, True) /* Create Impious Staff (5937) for Wield */
-     , (5000338, 9,  5000394,  0, 0, .2, True) /* Create Impious Staff (5937) for Wield */;
+     , (5000338, 9,  5000394,  0, 0, .2, True) /* Create Impious Staff (5937) for Wield */
+     , (5000338, 9,  5000507,  0, 0, .2, True) /* Create Impious Staff (5937) for Wield */;
