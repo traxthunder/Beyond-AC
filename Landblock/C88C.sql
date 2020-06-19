@@ -354,3 +354,39 @@ VALUES (0x7C88C40A, 42981, 0xC88C010A, 100.572, 37.1725, 25.005, -0.73747, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88C40B, 5000798, 0xC88C0018, 49.88033, 178.5727, 22.054998, -0.9998773, 0, 0, -0.015665714, False, '2020-06-13 16:09:44'); /* Advocate Blessing */
 /* @teleloc 0xC88C0018 [49.880329 178.572693 22.054998] -0.999877 0.000000 0.000000 -0.015666 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C88C40C, 5000853, 0xC88C001F, 84.3487, 150.01, 22.055, -0.630063, 0, 0, 0.776544, False, '2020-06-19 16:49:30'); /* RithAttack */
+/* @teleloc 0xC88C001F [84.348701 150.009995 22.055000] -0.630063 0.000000 0.000000 0.776544 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C88C40D, 5000853, 0xC88C0018, 51.8087, 173.604, 22.055, 0.915525, 0, 0, 0.402261, False, '2020-06-19 16:49:36'); /* RithAttack */
+/* @teleloc 0xC88C0018 [51.808701 173.604004 22.055000] 0.915525 0.000000 0.000000 0.402261 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C88C40E, 5000853, 0xC88C0040, 190.404, 180.874, 24.8093, -0.755911, 0, 0, 0.654674, False, '2020-06-19 16:50:15'); /* RithAttack */
+/* @teleloc 0xC88C0040 [190.404007 180.873993 24.809299] -0.755911 0.000000 0.000000 0.654674 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C88C40F, 5000853, 0xC88C002D, 122.087, 102.527, 22.425, 0.639494, 0, 0, -0.768796, False, '2020-06-19 16:50:48'); /* RithAttack */
+/* @teleloc 0xC88C002D [122.086998 102.527000 22.424999] 0.639494 0.000000 0.000000 -0.768796 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C88C410, 5000853, 0xC88C002A, 135.387, 41.241, 22.055, -0.00276438, 0, 0, -0.999996, False, '2020-06-19 16:50:54'); /* RithAttack */
+/* @teleloc 0xC88C002A [135.386993 41.241001 22.055000] -0.002764 0.000000 0.000000 -0.999996 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C88C411, 5000853, 0xC88C001B, 86.2002, 48.0032, 22.055, -0.976625, 0, 0, -0.214951, False, '2020-06-19 16:50:59'); /* RithAttack */
+/* @teleloc 0xC88C001B [86.200203 48.003201 22.055000] -0.976625 0.000000 0.000000 -0.214951 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C88C412, 5000853, 0xC88C000C, 45.9389, 95.8722, 22.055, -0.82867, 0, 0, -0.559738, False, '2020-06-19 16:51:11'); /* RithAttack */
+/* @teleloc 0xC88C000C [45.938900 95.872200 22.055000] -0.828670 0.000000 0.000000 -0.559738 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C88C413, 5000853, 0xC88C000E, 30.253487, 138.53598, 22.054998, -0.81886464, 0, 0, -0.57398665, False, '2020-06-19 16:51:15'); /* RithAttack */
+/* @teleloc 0xC88C000E [30.253487 138.535980 22.054998] -0.818865 0.000000 0.000000 -0.573987 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C88C414, 5000854, 0xC88C0027, 115.602, 149.415, 22.055, 0.628424, 0, 0, 0.777871, False, '2020-06-19 16:48:43'); /* RithAttack */
+/* @teleloc 0xC88C0027 [115.601997 149.414993 22.055000] 0.628424 0.000000 0.000000 0.777871 */
