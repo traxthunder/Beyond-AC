@@ -173,4 +173,5 @@ VALUES (5000335, 2, 26503,  1, 39, 0, True) /* Create Ancient Armored Vestment (
      , (5000335, 2, 44840,  1, 93, 0, True) /* Create  (44840) for Wield */
      , (5000335, 2,  2596,  1, 93, 0, True) /* Create Doublet (2596) for Wield */
      , (5000335, 2,  5937,  1, 0, 0, True) /* Create Impious Staff (5937) for Wield */
-     , (5000335, 9,  5000394,  0, 0, .2, True) /* Create Impious Staff (5937) for Wield */;
+     , (5000335, 9,  5000394,  0, 0, .2, True) /* Create Impious Staff (5937) for Wield */
+     , (5000335, 9,  5000507,  0, 0, .2, True) /* Create Impious Staff (5937) for Wield */;
