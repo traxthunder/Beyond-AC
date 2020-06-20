@@ -13,7 +13,7 @@ VALUES (5000503,   1,          2) /* ItemType - Armor */
      , (5000503,  16,          1) /* ItemUseable - No */
      , (5000503,  19,      1) /* Value */
      , (5000503,  27,          1) /* ArmorType - Cloth */
-     , (5000503,  28,        850) /* ArmorLevel */
+     , (5000503,  28,        750) /*== ArmorLevel */
      , (5000503,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5000503, 106,        300) /* ItemSpellcraft */
      , (5000503, 107,       1200) /* ItemCurMana */
