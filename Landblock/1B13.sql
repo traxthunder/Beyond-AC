@@ -211,3 +211,7 @@ VALUES (0x71B1302E, 30691, 0x1B130000, 150.173, 112.97, 8.96749, -0.99998, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B1302F, 30691, 0x1B130000, 147.603, 112.011, 8.24493, -0.97878, 0, 0, -0.204916,  True, '2005-02-09 10:00:00'); /* Withered Raider Justicar */
 /* @teleloc 0x1B130000 [147.602997 112.011002 8.244930] -0.978780 0.000000 0.000000 -0.204916 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71B13030, 5000859, 0x1B13000B, 29.189806, 51.12616, -0.045000028, 0.90660596, 0, 0, -0.4219783, False, '2020-06-20 01:07:57'); /* GspireWait */
+/* @teleloc 0x1B13000B [29.189806 51.126160 -0.045000] 0.906606 0.000000 0.000000 -0.421978 */
