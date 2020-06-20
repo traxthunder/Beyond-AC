@@ -50,4 +50,4 @@ VALUES (5001022,   1,   33555997) /* Setup */
      , (5001022,  22,  872415275) /* PhysicsEffectTable */
      , (5001022,  36,  234881053) /* MutateFilter */
      , (5001022,  46,  939524102) /* TsysMutationFilter */
-     , (5001022, 52,        0x0600335a) /* Rending */;;
+     , (5001022, 52,        0x0600335a) /* Rending */;
