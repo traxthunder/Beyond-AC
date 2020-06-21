@@ -96,6 +96,7 @@ VALUES (5000798, 14, 0, 3, 0, 200, 0, 0) /* ArcaneLore          Specialized */
      , (5000798, 22, 0, 3, 0, 200, 0, 0) /* Jump                Specialized */
      , (5000798, 24, 0, 3, 0, 200, 0, 0) /* Run                 Specialized */
      , (5000798, 31, 0, 3, 0, 900, 0, 0) /* CreatureEnchantment Specialized */
+     , (5000798, 32, 0, 3, 0, 1500, 0, 0) /* CreatureEnchantment Specialized */
      , (5000798, 33, 0, 3, 0, 900, 0, 0) /* LifeMagic           Specialized */
      , (5000798, 34, 0, 3, 0, 900, 0, 0) /* WarMagic            Specialized */;
 
