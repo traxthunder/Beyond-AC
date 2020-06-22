@@ -329,5 +329,57 @@ VALUES (0x7113406D, 42852, 0x11340026, 105.754, 133.537, 42.198, 0.311994, 0, 0,
 /* @teleloc 0x11340026 [105.753998 133.537003 42.198002] 0.311994 0.000000 0.000000 0.950084 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7113406E, 5000798, 0x1134001D, 81.20628, 102.18255, 42.055, 0.5078718, 0, 0, 0.8614327, False, '2020-06-13 16:11:31'); /* Advocate Blessing */
-/* @teleloc 0x1134001D [81.206284 102.182549 42.055000] 0.507872 0.000000 0.000000 0.861433 */
+VALUES (0x7113406E, 5000798, 0x1134001D, 81.2063, 102.183, 42.055, 0.507872, 0, 0, 0.861433, False, '2020-06-13 16:11:31'); /* Advocate Blessing */
+/* @teleloc 0x1134001D [81.206299 102.182999 42.055000] 0.507872 0.000000 0.000000 0.861433 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7113406F, 5000904, 0x1134001C, 73.2214, 75.3858, 42.055, 0.193985, 0, 0, 0.981004, False, '2020-06-21 20:25:46'); /* AyanAttack */
+/* @teleloc 0x1134001C [73.221397 75.385803 42.055000] 0.193985 0.000000 0.000000 0.981004 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71134070, 5000902, 0x11340013, 61.1453, 67.813, 42.055, -0.942431, 0, 0, 0.334401, False, '2020-06-21 20:26:03'); /* AyanAttack */
+/* @teleloc 0x11340013 [61.145302 67.813004 42.055000] -0.942431 0.000000 0.000000 0.334401 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71134071, 5000902, 0x11340011, 68.6186, 19.7289, 51.2711, -0.0945893, 0, 0, 0.995516, False, '2020-06-21 20:26:09'); /* AyanAttack */
+/* @teleloc 0x11340011 [68.618599 19.728901 51.271099] -0.094589 0.000000 0.000000 0.995516 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71134072, 5000902, 0x11340019, 94.3269, 3.68095, 55.1069, -0.659885, 0, 0, 0.751367, False, '2020-06-21 20:26:13'); /* AyanAttack */
+/* @teleloc 0x11340019 [94.326897 3.680950 55.106899] -0.659885 0.000000 0.000000 0.751367 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71134073, 5000902, 0x11340024, 113.405, 73.9231, 42.055, -0.98104, 0, 0, -0.193803, False, '2020-06-21 20:26:19'); /* AyanAttack */
+/* @teleloc 0x11340024 [113.404999 73.923103 42.055000] -0.981040 0.000000 0.000000 -0.193803 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71134074, 5000902, 0x11340025, 115.92, 114.922, 42.055, -0.993054, 0, 0, 0.117656, False, '2020-06-21 20:26:23'); /* AyanAttack */
+/* @teleloc 0x11340025 [115.919998 114.921997 42.055000] -0.993054 0.000000 0.000000 0.117656 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71134075, 5000902, 0x11340027, 114.688, 152.054, 42.055, -0.984753, 0, 0, -0.173957, False, '2020-06-21 20:26:26'); /* AyanAttack */
+/* @teleloc 0x11340027 [114.688004 152.054001 42.055000] -0.984753 0.000000 0.000000 -0.173957 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71134076, 5000902, 0x11340028, 96.5934, 184.299, 42.055, -0.929861, 0, 0, -0.36791, False, '2020-06-21 20:26:29'); /* AyanAttack */
+/* @teleloc 0x11340028 [96.593399 184.298996 42.055000] -0.929861 0.000000 0.000000 -0.367910 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71134077, 5000902, 0x11340018, 58.4049, 184.485, 42.055, -0.65141, 0, 0, -0.758726, False, '2020-06-21 20:26:33'); /* AyanAttack */
+/* @teleloc 0x11340018 [58.404900 184.485001 42.055000] -0.651410 0.000000 0.000000 -0.758726 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71134078, 5000902, 0x1134000F, 47.5898, 154.035, 42.055, -0.230881, 0, 0, -0.972982, False, '2020-06-21 20:26:36'); /* AyanAttack */
+/* @teleloc 0x1134000F [47.589802 154.035004 42.055000] -0.230881 0.000000 0.000000 -0.972982 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71134079, 5000902, 0x11340015, 52.6992, 109.114, 42.055, 0.242924, 0, 0, -0.970045, False, '2020-06-21 20:26:43'); /* AyanAttack */
+/* @teleloc 0x11340015 [52.699200 109.113998 42.055000] 0.242924 0.000000 0.000000 -0.970045 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7113407A, 5000902, 0x1134001E, 87.736, 136.596, 42.055, 0.96099, 0, 0, -0.276584, False, '2020-06-21 20:26:48'); /* AyanAttack */
+/* @teleloc 0x1134001E [87.736000 136.595993 42.055000] 0.960990 0.000000 0.000000 -0.276584 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7113407B, 5000902, 0x1134001D, 87.74368, 98.52974, 42.055, -0.31912062, 0, 0, -0.9477141, False, '2020-06-21 20:26:53'); /* AyanAttack */
+/* @teleloc 0x1134001D [87.743683 98.529739 42.055000] -0.319121 0.000000 0.000000 -0.947714 */

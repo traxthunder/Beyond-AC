@@ -126,9 +126,9 @@ VALUES (5000336,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (5000336, 15, 0, 3, 0, 275, 0, 0) /* MagicDefense        Specialized */
      , (5000336, 31, 0, 3, 0, 350, 0, 1198.474609375) /* CreatureEnchantment Specialized */
      , (5000336, 32, 0, 3, 0, 350, 0, 1198.474609375) /* ItemEnchantment     Specialized */
-     , (5000336, 33, 0, 3, 0, 9000, 0, 1198.474609375) /* LifeMagic           Specialized */
-     , (5000336, 34, 0, 3, 0, 800, 0, 1198.474609375) /* WarMagic            Specialized */
-     , (5000336, 44, 0, 3, 0, 850, 0, 1198.474609375) /* HeavyWeapons        Specialized */
+     , (5000336, 33, 0, 3, 0, 500, 0, 1198.474609375) /* LifeMagic           Specialized */
+     , (5000336, 34, 0, 3, 0, 500, 0, 1198.474609375) /* WarMagic            Specialized */
+     , (5000336, 44, 0, 3, 0, 650, 0, 1198.474609375) /* HeavyWeapons        Specialized */
      , (5000336, 48, 0, 3, 0, 500, 0, 1198.474609375) /* Shield              Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)

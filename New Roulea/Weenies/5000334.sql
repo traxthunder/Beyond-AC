@@ -124,14 +124,14 @@ VALUES (5000334,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (5000334, 30, 0, 3, 0, 200, 0, 1198.474609375) /* MagicItemTinkering  Specialized */
      , (5000334, 31, 0, 3, 0, 350, 0, 1198.474609375) /* CreatureEnchantment Specialized */
      , (5000334, 32, 0, 3, 0, 350, 0, 1198.474609375) /* ItemEnchantment     Specialized */
-     , (5000334, 33, 0, 3, 0, 9000, 0, 1198.474609375) /* LifeMagic           Specialized */
-     , (5000334, 34, 0, 3, 0, 800, 0, 1198.474609375) /* WarMagic            Specialized */
+     , (5000334, 33, 0, 3, 0, 500, 0, 1198.474609375) /* LifeMagic           Specialized */
+     , (5000334, 34, 0, 3, 0, 500, 0, 1198.474609375) /* WarMagic            Specialized */
      , (5000334, 36, 0, 3, 0, 900, 0, 1198.474609375) /* Loyalty             Specialized */
      , (5000334, 37, 0, 3, 0, 400, 0, 1198.474609375) /* Fletching           Specialized */
      , (5000334, 38, 0, 3, 0, 400, 0, 1198.474609375) /* Alchemy             Specialized */
      , (5000334, 39, 0, 3, 0, 900, 0, 1198.474609375) /* Cooking             Specialized */
      , (5000334, 41, 0, 3, 0, 9000, 0, 0) /* TwoHandedCombat     Specialized */
-     , (5000334, 43, 0, 3, 0, 9000, 0, 0) /* VoidMagic           Specialized */
+     , (5000334, 43, 0, 3, 0, 500, 0, 0) /* VoidMagic           Specialized */
      , (5000334, 44, 0, 3, 0, 9000, 0, 0) /* HeavyWeapons        Specialized */
      , (5000334, 45, 0, 3, 0, 9000, 0, 0) /* LightWeapons        Specialized */
      , (5000334, 46, 0, 3, 0, 9000, 0, 0) /* FinesseWeapons      Specialized */
