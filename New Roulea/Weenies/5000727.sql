@@ -10,7 +10,7 @@ VALUES(5000727,   1,          1) /* ItemType - MeleeWeapon */
      , (5000727,   9,   33554432) /* ValidLocations - TwoHanded */
      , (5000727,  16,          1) /* ItemUseable - No */
      , (5000727,  18,         64) /* UiEffects - Lightning */
-     , (5000727,  19,        340) /* Value */
+     , (5000727,  19,        10) /* Value */
      , (5000727,  44,          8) /* Damage */
      , (5000727,  45,         64) /* DamageType - Electric */
      , (5000727,  46,          8) /* DefaultCombatStyle - TwoHanded */

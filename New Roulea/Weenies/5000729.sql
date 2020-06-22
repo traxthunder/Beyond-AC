@@ -12,7 +12,7 @@ VALUES (5000729,   1,          1) /* ItemType - MeleeWeapon */
      , (5000729,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (5000729,  16,          1) /* ItemUseable - No */
      , (5000729,  18,         64) /* UiEffects - Lightning */
-     , (5000729,  19,        100) /* Value */
+     , (5000729,  19,        10) /* Value */
      , (5000729,  44,          4) /* Damage */
      , (5000729,  45,         64) /* DamageType - Electric */
      , (5000729,  46,          2) /* DefaultCombatStyle - OneHanded */

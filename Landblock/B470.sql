@@ -302,5 +302,13 @@ VALUES (0x7B470511, 5000810, 0xB4700021, 114.752, 22.7437, 59.8737, 0.285246, 0,
 /* @teleloc 0xB4700021 [114.751999 22.743700 59.873699] 0.285246 0.000000 0.000000 -0.958454 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B470512, 44891, 0xB470014F, 129.52809, 79.99795, 42.005, -0.92261785, 0, 0, -0.38571537, False, '2020-06-18 17:46:21'); /* Buckminster */
-/* @teleloc 0xB470014F [129.528091 79.997948 42.005001] -0.922618 0.000000 0.000000 -0.385715 */
+VALUES (0x7B470512, 44891, 0xB470014F, 129.528, 79.9979, 42.005, -0.922618, 0, 0, -0.385715, False, '2020-06-18 17:46:21'); /* Buckminster */
+/* @teleloc 0xB470014F [129.528000 79.997902 42.005001] -0.922618 0.000000 0.000000 -0.385715 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B470513, 5000908, 0xB4700114, 89.3784, 107.643, 45.005, 0.757028, 0, 0, 0.653383, False, '2020-06-21 21:43:05'); /* World Boss Vendor */
+/* @teleloc 0xB4700114 [89.378403 107.642998 45.005001] 0.757028 0.000000 0.000000 0.653383 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B470514, 5000907, 0xB4700114, 84.82905, 103.19513, 45.005, 0.9999161, 0, 0, -0.0129552195, False, '2020-06-21 21:43:17'); /* World Boss Collector */
+/* @teleloc 0xB4700114 [84.829048 103.195129 45.005001] 0.999916 0.000000 0.000000 -0.012955 */

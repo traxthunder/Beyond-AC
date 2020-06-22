@@ -11,7 +11,7 @@ VALUES (5000725,   1,          1) /* ItemType - MeleeWeapon */
      , (5000725,   8,        320) /* Mass */
      , (5000725,   9,    33554432) /* ValidLocations - MeleeWeapon */
      , (5000725,  16,          1) /* ItemUseable - No */
-     , (5000725,  19,        360) /* Value */
+     , (5000725,  19,        10) /* Value */
      , (5000725,  44,         11) /* Damage */
      , (5000725,  45,          1) /* DamageType - Slash */
      , (5000725,  46,          8) /* DefaultCombatStyle - OneHanded */

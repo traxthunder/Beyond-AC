@@ -17,7 +17,7 @@ VALUES (5000536,   1,          2) /* ItemType - Armor */
      , (5000536,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5000536, 150,        103) /* HookPlacement - Hook */
      , (5000536, 151,          2) /* HookType - Wall */
-     , (5000536,  28,        750) /*== ArmorLevel */
+     , (5000536,  28,        700) /*== ArmorLevel */
      , (5000536,  33,          1) /*== Bonded - Bonded */
      , (5000536, 114,          1) /*== Attuned - Attuned */
      , (5000536, 158,          7) /*== WieldRequirements - Base Skill */

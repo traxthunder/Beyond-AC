@@ -461,10 +461,6 @@ VALUES (0x70031062, 5000837, 0x0031014A, 119.257, -109.82, -65.945, 0.983965, 0,
 /* @teleloc 0x0031014A [119.257004 -109.820000 -65.945000] 0.983965 0.000000 0.000000 0.178363 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70031063, 5000836, 0x0031015B, 132.128, -119.083, -65.945, 0.135903, 0, 0, -0.990722, False, '2020-06-18 01:48:26'); /* CCWait */
-/* @teleloc 0x0031015B [132.128006 -119.083000 -65.945000] 0.135903 0.000000 0.000000 -0.990722 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70031064, 5000839, 0x0031015A, 131.042, -110.716, -65.945, 0.899063, 0, 0, 0.437819, False, '2020-06-18 01:49:47'); /* CCAttack */
 /* @teleloc 0x0031015A [131.042007 -110.716003 -65.945000] 0.899063 0.000000 0.000000 0.437819 */
 
@@ -477,5 +473,5 @@ VALUES (0x70031066, 5000839, 0x00310153, 133.313, -59.9735, -65.945, -0.955696, 
 /* @teleloc 0x00310153 [133.313004 -59.973499 -65.945000] -0.955696 0.000000 0.000000 -0.294355 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70031067, 5000839, 0x003101D1, 72.73153, -30.439222, -53.945, 0.66247964, 0, 0, 0.74907994, False, '2020-06-18 01:50:24'); /* CCAttack */
-/* @teleloc 0x003101D1 [72.731529 -30.439222 -53.945000] 0.662480 0.000000 0.000000 0.749080 */
+VALUES (0x70031067, 5000839, 0x003101D1, 72.7315, -30.4392, -53.945, 0.66248, 0, 0, 0.74908, False, '2020-06-18 01:50:24'); /* CCAttack */
+/* @teleloc 0x003101D1 [72.731499 -30.439199 -53.945000] 0.662480 0.000000 0.000000 0.749080 */
