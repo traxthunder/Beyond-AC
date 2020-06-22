@@ -9,7 +9,7 @@ VALUES (5000391,   1,          1) /* ItemType - MeleeWeapon */
      , (5000391,   5,        550) /* EncumbranceVal */
      , (5000391,   9,   33554432) /* ValidLocations - TwoHanded */
      , (5000391,  16,          1) /* ItemUseable - No */
-     , (5000391,  19,        5) /* Value */
+     , (5000391,  19,        10) /* Value */
      , (5000391,  44,          47) /* Damage */
      , (5000391,  45,          1) /* DamageType - Slash */
      , (5000391,  46,          8) /* DefaultCombatStyle - TwoHanded */
