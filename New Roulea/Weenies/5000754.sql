@@ -10,7 +10,7 @@ VALUES (5000754,   1,          1) /* ItemType - MeleeWeapon */
      , (5000754,   9,   33554432) /* ValidLocations - TwoHanded */
      , (5000754,  16,          1) /* ItemUseable - No */
      , (5000754,  18,        128) /* UiEffects - Frost */
-     , (5000754,  19,        340) /* Value */
+     , (5000754,  19,        10) /* Value */
      , (5000754,  44,          8) /* Damage */
      , (5000754,  45,          1) /* DamageType - Cold */
      , (5000754,  46,          8) /* DefaultCombatStyle - TwoHanded */

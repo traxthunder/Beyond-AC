@@ -171,7 +171,13 @@ VALUES (5000908, 2,  5000499,  0, 0, 0, False) /* Create Festival Robe for Wield
      , (5000908, 4,  5000915, -1, 0, 0, False) /* Create Mana Scarab for Shop */
      , (5000908, 4,  5000916, -1, 0, 0, False) /* Create Mana Scarab for Shop */
      , (5000908, 4,  5000917, -1, 0, 0, False) /* Create Mana Scarab for Shop */
-     , (5000908, 4,  5000918, -1, 0, 0, False) /* Create Mana Scarab for Shop */;
+     , (5000908, 4,  5000731, -1, 0, 0, False) /* Create Mana Scarab for Shop */
+     , (5000908, 4,  5000732, -1, 0, 0, False) /* Create Mana Scarab for Shop */
+     , (5000908, 4,  5000739, -1, 0, 0, False) /* Create Mana Scarab for Shop */
+     , (5000908, 4,  5000740, -1, 0, 0, False) /* Create Mana Scarab for Shop */
+     , (5000908, 4,  5000752, -1, 0, 0, False) /* Create Mana Scarab for Shop */
+     , (5000908, 4,  5000753, -1, 0, 0, False) /* Create Mana Scarab for Shop */
+     , (5000908, 4,  5000754, -1, 0, 0, False) /* Create Mana Scarab for Shop */
 
 
 /* #endregion */
