@@ -11,7 +11,7 @@ VALUES (5000751,   1,          1) /* ItemType - MeleeWeapon */
      , (5000751,   8,       1200) /* Mass */
      , (5000751,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (5000751,  16,          1) /* ItemUseable - No */
-     , (5000751,  19,       3000) /* Value */
+     , (5000751,  19,       10) /* Value */
      , (5000751,  44,         60) /* Damage */
      , (5000751,  45,          32) /* DamageType - Bludgeon */
      , (5000751,  46,          2) /* DefaultCombatStyle - OneHanded */

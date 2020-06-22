@@ -10,7 +10,7 @@ VALUES (5000753,   1,          1) /* ItemType - MeleeWeapon */
      , (5000753,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (5000753,  16,          1) /* ItemUseable - No */
      , (5000753,  17,        288) /* RareId */
-     , (5000753,  19,      50000) /* Value */
+     , (5000753,  19,      10) /* Value */
      , (5000753,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (5000753,  44,         12) /* Damage */
      , (5000753,  45,          1) /* DamageType - Slash, Pierce */

@@ -10,7 +10,7 @@ VALUES (5000740,   1,          1) /* ItemType - MeleeWeapon */
      , (5000740,   8,        140) /* Mass */
      , (5000740,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (5000740,  16,          1) /* ItemUseable - No */
-     , (5000740,  19,        170) /* Value */
+     , (5000740,  19,        10) /* Value */
      , (5000740,  44,         10) /* Damage */
      , (5000740,  45,          2) /* DamageType - Pierce */
      , (5000740,  46,          2) /* DefaultCombatStyle - OneHanded */
