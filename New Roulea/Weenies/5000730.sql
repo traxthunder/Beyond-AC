@@ -16,7 +16,7 @@ VALUES (5000730,   1,       2048) /* ItemType - Gem */
      , (5000730,  14,         40) /* StackUnitMass */
      , (5000730,  15,          0) /* StackUnitValue */
      , (5000730,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (5000730,  19,          0) /* Value */
+     , (5000730,  19,          10) /* Value */
      , (5000730,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5000730,  94,          2) /* TargetType - Armor */
      , (5000730, 150,        103) /* HookPlacement - Hook */

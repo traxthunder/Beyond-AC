@@ -453,29 +453,61 @@ VALUES (0x7C6A907A, 39788, 0xC6A90008, 23.5546, 168.419, 22, -0.363977, 0, 0, 0.
 /* @teleloc 0xC6A90008 [23.554600 168.419006 22.000000] -0.363977 0.000000 0.000000 0.931408 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A9500, 30014, 0xC6A90157, 31.7409, 59.3508, 42.005, 0.611221, 0, 0, -0.79146, False, '2019-07-27 14:14:00'); /* Grand Master Scrivener of Life Magic */
-/* @teleloc 0xC6A90157 [31.740900 59.350800 42.005001] 0.611221 0.000000 0.000000 -0.791460 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A9501, 43353, 0xC6A9015A, 31.7269, 56.043, 42.005, 0.910491, 0, 0, -0.41353, False, '2019-07-27 14:14:00'); /* Grand Master Scrivener of Void Magic */
-/* @teleloc 0xC6A9015A [31.726900 56.042999 42.005001] 0.910491 0.000000 0.000000 -0.413530 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A9502, 30018, 0xC6A9015A, 31.5644, 57.4041, 42.005, 0.82459, 0, 0, -0.565731, False, '2019-07-27 14:14:00'); /* Grand Master Scrivener of War Magic */
-/* @teleloc 0xC6A9015A [31.564400 57.404099 42.005001] 0.824590 0.000000 0.000000 -0.565731 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A9503, 20208, 0xC6A90157, 37.7783, 60.8126, 42.005, -0.26019, 0, 0, -0.965557, False, '2019-07-27 14:14:00'); /* Grand Master Scrivener of Creature Magic */
-/* @teleloc 0xC6A90157 [37.778301 60.812599 42.005001] -0.260190 0.000000 0.000000 -0.965557 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A9504, 20212, 0xC6A9015A, 38.1147, 54.1144, 42.005, 0.963357, 0, 0, 0.268223, False, '2019-07-27 14:14:00'); /* Grand Master Scrivener of Item Magic */
-/* @teleloc 0xC6A9015A [38.114700 54.114399 42.005001] 0.963357 0.000000 0.000000 0.268223 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6A9505, 3213216, 0xC6A9015A, 34.03, 55.2354, 42.005, 0.890232, 0, 0, -0.455507, False, '2019-07-27 14:14:00'); /* Master Yado */
 /* @teleloc 0xC6A9015A [34.029999 55.235401 42.005001] 0.890232 0.000000 0.000000 -0.455507 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A9506, 5000798, 0xC6A90013, 55.35076, 63.142765, 42.055, 0.99940085, 0, 0, -0.034611207, False, '2020-06-13 16:09:03'); /* Advocate Blessing */
-/* @teleloc 0xC6A90013 [55.350761 63.142765 42.055000] 0.999401 0.000000 0.000000 -0.034611 */
+VALUES (0x7C6A9506, 5000798, 0xC6A90013, 55.3508, 63.1428, 42.055, 0.999401, 0, 0, -0.0346112, False, '2020-06-13 16:09:03'); /* Advocate Blessing */
+/* @teleloc 0xC6A90013 [55.350800 63.142799 42.055000] 0.999401 0.000000 0.000000 -0.034611 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A9507, 5000871, 0xC6A9018E, 109.621, 45.2813, 42.005, -0.627749, 0, 0, -0.778415, False, '2020-06-21 20:48:55'); /* lvl 50 Arcane Pedestal Warden */
+/* @teleloc 0xC6A9018E [109.621002 45.281300 42.005001] -0.627749 0.000000 0.000000 -0.778415 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A9508, 5000872, 0xC6A9018C, 106.907, 34.8729, 42.005, 0.999495, 0, 0, 0.0317725, False, '2020-06-21 20:49:09'); /* lvl 50 Bandit Shield Warden */
+/* @teleloc 0xC6A9018C [106.906998 34.872898 42.005001] 0.999495 0.000000 0.000000 0.031773 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A9509, 5000873, 0xC6A90191, 110.604, 26.4312, 42.005, -0.991811, 0, 0, 0.127715, False, '2020-06-21 20:49:18'); /* lvl 50 ElariWood Bow Warden */
+/* @teleloc 0xC6A90191 [110.603996 26.431200 42.005001] -0.991811 0.000000 0.000000 0.127715 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A950A, 5000874, 0xC6A90191, 114.038, 26.03, 42.005, -0.995902, 0, 0, 0.0904413, False, '2020-06-21 20:49:23'); /* lvl 50 Flag Warden */
+/* @teleloc 0xC6A90191 [114.038002 26.030001 42.005001] -0.995902 0.000000 0.000000 0.090441 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A950B, 5000875, 0xC6A90191, 117.621, 26.7759, 42.005, -0.956238, 0, 0, -0.292591, False, '2020-06-21 20:49:29'); /* lvl 50 Healers Heart Warden */
+/* @teleloc 0xC6A90191 [117.621002 26.775900 42.005001] -0.956238 0.000000 0.000000 -0.292591 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A950C, 5000876, 0xC6A90191, 117.524, 31.0022, 42.005, -0.698902, 0, 0, -0.715217, False, '2020-06-21 20:49:35'); /* lvl 50 Defense of Ziakhal Warden */
+/* @teleloc 0xC6A90191 [117.524002 31.002199 42.005001] -0.698902 0.000000 0.000000 -0.715217 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A950D, 5000877, 0xC6A90022, 113.503, 45.3047, 42.005, 0.025903, 0, 0, -0.999664, False, '2020-06-21 20:49:56'); /* lvl 60 Aegis Warden */
+/* @teleloc 0xC6A90022 [113.502998 45.304699 42.005001] 0.025903 0.000000 0.000000 -0.999664 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A950E, 5000878, 0xC6A90022, 117.395, 44.5755, 42.005, -0.173216, 0, 0, -0.984884, False, '2020-06-21 20:50:03'); /* lvl 60 Heart of Innocence Warden */
+/* @teleloc 0xC6A90022 [117.394997 44.575500 42.005001] -0.173216 0.000000 0.000000 -0.984884 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A950F, 5000879, 0xC6A90193, 115.753, 31.7042, 46.805, 0.672911, 0, 0, 0.739724, False, '2020-06-21 20:50:18'); /* lvl 60 Jade Spear Warden */
+/* @teleloc 0xC6A90193 [115.752998 31.704201 46.805000] 0.672911 0.000000 0.000000 0.739724 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A9510, 5000880, 0xC6A90193, 115.642, 28.2755, 46.805, 0.73498, 0, 0, 0.678089, False, '2020-06-21 20:50:27'); /* lvl 60 Phantom Weapons Warden */
+/* @teleloc 0xC6A90193 [115.641998 28.275499 46.805000] 0.734980 0.000000 0.000000 0.678089 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A9511, 5000881, 0xC6A90193, 111.637, 26.0892, 46.805, 0.999971, 0, 0, 0.00765931, False, '2020-06-21 20:50:33'); /* lvl 60 Shendolain Quest Warden */
+/* @teleloc 0xC6A90193 [111.637001 26.089199 46.805000] 0.999971 0.000000 0.000000 0.007659 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A9512, 5000882, 0xC6A90193, 107.342, 26.0804, 46.805, 0.999971, 0, 0, 0.00765931, False, '2020-06-21 20:50:38'); /* lvl 80 Drudge Aviator Warden */
+/* @teleloc 0xC6A90193 [107.342003 26.080400 46.805000] 0.999971 0.000000 0.000000 0.007659 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A9513, 5000883, 0xC6A90193, 102.24358, 26.094826, 46.805, 0.9860312, 0, 0, -0.16656086, False, '2020-06-21 20:50:49'); /* lvl 80 Simulacra Warden */
+/* @teleloc 0xC6A90193 [102.243584 26.094826 46.805000] 0.986031 0.000000 0.000000 -0.166561 */

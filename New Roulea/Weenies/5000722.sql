@@ -11,7 +11,7 @@ VALUES (5000721,   1,          1) /* ItemType - MeleeWeapon */
      , (5000721,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (5000721,  16,          1) /* ItemUseable - No */
      , (5000721,  18,         32) /* UiEffects - Fire */
-     , (5000721,  19,        600) /* Value */
+     , (5000721,  19,        10) /* Value */
      , (5000721,  44,         10) /* Damage */
      , (5000721,  45,         16) /* DamageType - Fire */
      , (5000721,  46,          2) /* DefaultCombatStyle - OneHanded */

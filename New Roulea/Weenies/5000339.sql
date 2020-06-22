@@ -105,8 +105,8 @@ VALUES (5000339,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (5000339, 15, 0, 3, 0, 275, 0, 0) /* MagicDefense        Specialized */
      , (5000339, 31, 0, 3, 0, 350, 0, 1198.474609375) /* CreatureEnchantment Specialized */
      , (5000339, 32, 0, 3, 0, 350, 0, 1198.474609375) /* ItemEnchantment     Specialized */
-     , (5000339, 33, 0, 3, 0, 9000, 0, 1198.474609375) /* LifeMagic           Specialized */
-     , (5000339, 34, 0, 3, 0, 800, 0, 1198.474609375) /* WarMagic            Specialized */
+     , (5000339, 33, 0, 3, 0, 500, 0, 1198.474609375) /* LifeMagic           Specialized */
+     , (5000339, 34, 0, 3, 0, 500, 0, 1198.474609375) /* WarMagic            Specialized */
      , (5000339, 44, 0, 3, 0, 850, 0, 1198.474609375) /* HeavyWeapons        Specialized */
      , (5000339, 48, 0, 3, 0, 500, 0, 1198.474609375) /* Shield              Specialized */;
 
