@@ -8,7 +8,8 @@ VALUES (5000327,   1,      65536) /* ItemType - Portal */
      , (5000327,  16,         32) /* ItemUseable - Remote */
      , (5000327,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (5000327, 111,         49) /* PortalBitmask - NotPassable, Unrestricted, NoSummon, NoRecall */
-     , (5000327, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (5000327, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (5000327,  86,         40) /* MinLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5000327,   1, True ) /* Stuck */
