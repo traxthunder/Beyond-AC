@@ -1,8 +1,5 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x01C9;
 
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C9003,  1030, 0x01C90107, 70, -196.976, -72, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Destroyed Portal to Yaraq */
-/* @teleloc 0x01C90107 [70.000000 -196.975998 -72.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C900E,   911, 0x01C9013C, 90, -140, -42, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lich Generator */
