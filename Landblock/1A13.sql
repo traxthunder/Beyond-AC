@@ -255,3 +255,11 @@ VALUES (0x71A13031, 0x71A13030, '2005-02-09 10:00:00') /* The Withering (30762) 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A13034, 5000818, 0x1A13003C, 177.102, 74.123, 0.055, -0.493977, 0, 0, -0.869475, False, '2020-06-17 13:36:13'); /* WitherAttack */
 /* @teleloc 0x1A13003C [177.102005 74.123001 0.055000] -0.493977 0.000000 0.000000 -0.869475 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71A13035, 5000924, 0x1A130039, 178.987, 11.0065, 0.055, 0.994763, 0, 0, 0.102207, False, '2020-06-24 00:24:09');
+/* @teleloc 0x1A130039 [178.987000 11.006500 0.055000] 0.994763 0.000000 0.000000 0.102207 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71A13036, 5000924, 0x1A130036, 163.97865, 136.36224, 0.054999996, 0.99689406, 0, 0, -0.07875453, False, '2020-06-24 00:24:22');
+/* @teleloc 0x1A130036 [163.978653 136.362244 0.055000] 0.996894 0.000000 0.000000 -0.078755 */

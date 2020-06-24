@@ -1041,5 +1041,21 @@ VALUES (0x700AE103, 42844, 0x00AE0787, 9.85726, -47.6197, -0.063, 0.999979, 0, 0
 /* @teleloc 0x00AE0787 [9.857260 -47.619701 -0.063000] 0.999979 0.000000 0.000000 -0.006464 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AE104, 42844, 0x00AE0797, 119.91272, -50.111515, -0.062999964, -0.9999962, 0, 0, -0.002768577, False, '2020-06-15 01:28:04'); /* Lin Portal */
-/* @teleloc 0x00AE0797 [119.912720 -50.111515 -0.063000] -0.999996 0.000000 0.000000 -0.002769 */
+VALUES (0x700AE104, 42844, 0x00AE0797, 119.913, -50.1115, -0.063, -0.999996, 0, 0, -0.00276858, False, '2020-06-15 01:28:04'); /* Lin Portal */
+/* @teleloc 0x00AE0797 [119.913002 -50.111500 -0.063000] -0.999996 0.000000 0.000000 -0.002769 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700AE105, 5000922, 0x00AE0381, 82.599, -49.0939, -11.945, -0.949095, 0, 0, -0.314991, False, '2020-06-24 00:19:17'); /* TuskerGaurdBossTrigger */
+/* @teleloc 0x00AE0381 [82.598999 -49.093899 -11.945000] -0.949095 0.000000 0.000000 -0.314991 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700AE106, 5000922, 0x00AE04F0, 150.102, -70.7872, -11.945, -0.0466632, 0, 0, 0.998911, False, '2020-06-24 00:19:39'); /* TuskerGaurdBossTrigger */
+/* @teleloc 0x00AE04F0 [150.102005 -70.787201 -11.945000] -0.046663 0.000000 0.000000 0.998911 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700AE107, 5000922, 0x00AE0250, 129.535, -59.7098, -17.945, -0.0342577, 0, 0, -0.999413, False, '2020-06-24 00:20:04'); /* TuskerGaurdBossTrigger */
+/* @teleloc 0x00AE0250 [129.535004 -59.709801 -17.945000] -0.034258 0.000000 0.000000 -0.999413 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700AE108, 5000922, 0x00AE06A8, 131.00443, -67.45548, -5.9449997, -0.9972906, 0, 0, -0.07356267, False, '2020-06-24 00:20:49'); /* TuskerGaurdBossTrigger */
+/* @teleloc 0x00AE06A8 [131.004425 -67.455482 -5.945000] -0.997291 0.000000 0.000000 -0.073563 */
