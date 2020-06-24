@@ -110,6 +110,14 @@ VALUES (1629,  94)
      , (1629, 414);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (1629,  3 /* Death */,  0.01, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (1629,  5 /* HeartBeat */,   0.05, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
@@ -173,14 +181,6 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (1629,  3 /* Death */,     0.005, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1629, 9,  8147,  0, 0, 0.05, False) /* Create Tusker Head (8147) for ContainTreasure */
      , (1629, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
@@ -194,20 +194,21 @@ VALUES (1629, 9,  8147,  0, 0, 0.05, False) /* Create Tusker Head (8147) for Con
      , (1629, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1629, 0.05, 5002614, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002613) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.1, 5002624, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002623) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.15, 5002634, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002633) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.2, 5002644, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002643) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.25, 5002654, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002653) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.45, 5002664, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002663) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.50, 5000819, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tanada Nanjou Shou-jen (34014) (x2 up to max of 2) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.55, 5002674, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002673) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.6, 5002684, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002683) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.65, 5002694, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002693) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.7, 5002704, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002703) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.75, 5002714, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002713) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.8, 5002724, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002723) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.85, 5002734, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002733) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.9, 5002744, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002743) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 0.95, 5002754, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002753) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (1629, 1, 5002764, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002763) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */;
+VALUES (1629, 0.04, 5002614, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002614) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.08, 5002624, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002624) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.12, 5002634, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002634) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.16, 5002644, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002644) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.2, 5002654, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002654) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.36, 5002664, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002664) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.4, 5000905, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Withered Banderling Hierophant (5000819) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.44, 5002674, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002674) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.48, 5002684, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002684) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.52, 5002694, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002694) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.56, 5002704, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002704) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.6, 5002714, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002714) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.64, 5002724, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002724) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.68, 5002734, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002734) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.72, 5002744, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002744) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.76, 5002754, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002754) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 0.8, 5002764, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002764) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (1629, 1, 0, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tusker Guard (5002764) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */;
