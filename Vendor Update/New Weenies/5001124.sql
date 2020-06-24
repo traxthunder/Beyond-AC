@@ -9,7 +9,6 @@ VALUES (5001124,   1,          1) /* ItemType - MeleeWeapon */
      , (5001124,   5,        550) /* EncumbranceVal */
      , (5001124,   9,   33554432) /* ValidLocations - TwoHanded */
      , (5001124,  16,          1) /* ItemUseable - No */
-     , (5001124,  18,        128) /* UiEffects - Frost */
      , (5001124,  19,        200000) /* Value */
      , (5001124,  44,          11) /* Damage */
      , (5001124,  45,          1) /* DamageType - Cold */
