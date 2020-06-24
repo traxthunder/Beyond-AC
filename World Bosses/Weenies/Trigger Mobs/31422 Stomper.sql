@@ -110,6 +110,14 @@ VALUES (31422,  0,  4,  0,    0,  580,  275,  440,  363,  550,  385,  550,  550,
      , (31422,  8,  4, 75, 0.75,  580,  275,  440,  363,  550,  385,  550,  550,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (31422,  3 /* Death */,  0.01, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31422,  5 /* HeartBeat */,   0.05, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
@@ -173,14 +181,6 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (31422,  3 /* Death */,     0.005, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31422, 9, 11692,  0, 0, 0.01, False) /* Create Little Green Seeds (11692) for ContainTreasure */
      , (31422, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
@@ -190,20 +190,21 @@ VALUES (31422, 9, 11692,  0, 0, 0.01, False) /* Create Little Green Seeds (11692
      , (31422, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31422, 0.05, 5002613, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002613) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.1, 5002623, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002623) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.15, 5002633, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002633) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.2, 5002643, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002643) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.25, 5002653, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002653) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.45, 5002663, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002663) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.50, 5000819, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tanada Nanjou Shou-jen (34014) (x2 up to max of 2) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.55, 5002673, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002673) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.6, 5002683, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002683) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.65, 5002693, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002693) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.7, 5002703, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002703) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.75, 5002713, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002713) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.8, 5002723, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002723) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.85, 5002733, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002733) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.9, 5002743, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002743) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 0.95, 5002753, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002753) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
-     , (31422, 1, 5002763, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002763) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */;
+VALUES (31422, 0.04, 5002613, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002613) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.08, 5002623, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002623) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.12, 5002633, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002633) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.16, 5002643, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002643) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.2, 5002653, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002653) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.36, 5002663, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002663) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.4, 5000820, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Withered Banderling Hierophant (5000819) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.44, 5002673, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002673) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.48, 5002683, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002683) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.52, 5002693, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002693) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.56, 5002703, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002703) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.60, 5002713, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002713) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.64, 5002723, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002723) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.68, 5002733, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002733) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.72, 5002743, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002743) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.76, 5002753, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002753) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 0.8, 5002763, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002753) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (31422, 1, 0, 0, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Stomper (5002763) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: OnTop */;
