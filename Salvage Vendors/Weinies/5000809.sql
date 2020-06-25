@@ -49,7 +49,7 @@ VALUES (5000809,   1,       5) /* HeartbeatInterval */
      , (5000809,  18,       1) /* ArmorModVsAcid */
      , (5000809,  19,     0.6) /* ArmorModVsElectric */
      , (5000809,  37,       -1) /* BuyPrice */
-     , (5000809,  38,       2) /* SellPrice */
+     , (5000809,  38,       1) /* SellPrice */
      , (5000809,  54,       3) /* UseRadius */
      , (5000809,  64,       1) /* ResistSlash */
      , (5000809,  65,       1) /* ResistPierce */
