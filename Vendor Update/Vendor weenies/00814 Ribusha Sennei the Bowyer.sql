@@ -180,6 +180,14 @@ VALUES (814, 2,   341,  0, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (814, 4, 5001141, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
      , (814, 4, 5001142, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
      , (814, 4, 5001143, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
+     , (814, 4, 5001144, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
+     , (814, 4, 5001145, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
+     , (814, 4, 5001146, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
+     , (814, 4, 5001147, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
+     , (814, 4, 5001148, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
+     , (814, 4, 5001149, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
+     , (814, 4, 5001150, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
+     , (814, 4, 5001151, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
      , (814, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (814, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */
      , (814, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts (15298) for Shop */
