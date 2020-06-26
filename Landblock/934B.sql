@@ -467,9 +467,25 @@ VALUES (0x7934B085, 5000895, 0x934B0012, 63.3087, 27.3972, 14.055, 0.509934, 0, 
 /* @teleloc 0x934B0012 [63.308701 27.397200 14.055000] 0.509934 0.000000 0.000000 -0.860214 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7934B086, 5000895, 0x934B0022, 114.714, 33.5588, 15.2584, 0.908988, 0, 0, -0.416822, False, '2020-06-21 20:22:42'); /* XaraAttack */
-/* @teleloc 0x934B0022 [114.713997 33.558800 15.258400] 0.908988 0.000000 0.000000 -0.416822 */
+VALUES (0x7934B087, 5000895, 0x934B0024, 116.881, 87.6042, 13.0145, 0.97884, 0, 0, 0.204628, False, '2020-06-21 20:22:47'); /* XaraAttack */
+/* @teleloc 0x934B0024 [116.880997 87.604202 13.014500] 0.978840 0.000000 0.000000 0.204628 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7934B087, 5000895, 0x934B0024, 116.8813, 87.60422, 13.014541, 0.9788397, 0, 0, 0.20462844, False, '2020-06-21 20:22:47'); /* XaraAttack */
-/* @teleloc 0x934B0024 [116.881302 87.604218 13.014541] 0.978840 0.000000 0.000000 0.204628 */
+VALUES (0x7934B088, 5000895, 0x934B001A, 89.4007, 42.6492, 14.055, -0.917726, 0, 0, -0.397213, False, '2020-06-25 20:12:10'); /* XaraAttack */
+/* @teleloc 0x934B001A [89.400703 42.649200 14.055000] -0.917726 0.000000 0.000000 -0.397213 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7934B089, 5000895, 0x934B0014, 56.9677, 85.3965, 15.3077, -0.885389, 0, 0, -0.464851, False, '2020-06-25 20:12:19'); /* XaraAttack */
+/* @teleloc 0x934B0014 [56.967701 85.396500 15.307700] -0.885389 0.000000 0.000000 -0.464851 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7934B08A, 5000895, 0x934B0023, 118.685, 61.7733, 14.055, 0.926232, 0, 0, 0.376955, False, '2020-06-25 20:13:10'); /* XaraAttack */
+/* @teleloc 0x934B0023 [118.684998 61.773300 14.055000] 0.926232 0.000000 0.000000 0.376955 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7934B08B, 5000895, 0x934B0009, 37.9115, 7.70309, 13.8562, 0.580164, 0, 0, 0.8145, False, '2020-06-25 20:13:19'); /* XaraAttack */
+/* @teleloc 0x934B0009 [37.911499 7.703090 13.856200] 0.580164 0.000000 0.000000 0.814500 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7934B08C, 5000895, 0x934B0002, 16.499596, 31.405975, 14.054999, 0.99729717, 0, 0, 0.07347358, False, '2020-06-25 20:13:22'); /* XaraAttack */
+/* @teleloc 0x934B0002 [16.499596 31.405975 14.054999] 0.997297 0.000000 0.000000 0.073474 */

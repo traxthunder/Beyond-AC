@@ -99,5 +99,17 @@ VALUES (0x72CB501C, 5000861, 0x2CB50006, 10.5759, 120.052, -0.045, 0.877915, 0, 
 /* @teleloc 0x2CB50006 [10.575900 120.052002 -0.045000] 0.877915 0.000000 0.000000 0.478817 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72CB501D, 5000861, 0x2CB5000E, 24.52606, 138.62578, -0.1, -0.73036516, 0, 0, 0.68305695, False, '2020-06-20 01:11:19'); /* GSpireAttack */
-/* @teleloc 0x2CB5000E [24.526060 138.625778 -0.100000] -0.730365 0.000000 0.000000 0.683057 */
+VALUES (0x72CB501D, 5000861, 0x2CB5000E, 24.5261, 138.626, -0.1, -0.730365, 0, 0, 0.683057, False, '2020-06-20 01:11:19'); /* GSpireAttack */
+/* @teleloc 0x2CB5000E [24.526100 138.626007 -0.100000] -0.730365 0.000000 0.000000 0.683057 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72CB501E, 5000861, 0x2CB50013, 60.1424, 65.7499, -0.1, 0.335924, 0, 0, 0.941889, False, '2020-06-25 20:10:54'); /* GSpireAttack */
+/* @teleloc 0x2CB50013 [60.142399 65.749901 -0.100000] 0.335924 0.000000 0.000000 0.941889 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72CB501F, 5000861, 0x2CB5000B, 47.7512, 54.7129, 0.055, 0.593469, 0, 0, 0.804857, False, '2020-06-25 20:10:56'); /* GSpireAttack */
+/* @teleloc 0x2CB5000B [47.751202 54.712898 0.055000] 0.593469 0.000000 0.000000 0.804857 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72CB5020, 5000861, 0x2CB50001, 23.599373, 23.005966, 0.054999996, 0.46525785, 0, 0, 0.8851752, False, '2020-06-25 20:10:58'); /* GSpireAttack */
+/* @teleloc 0x2CB50001 [23.599373 23.005966 0.055000] 0.465258 0.000000 0.000000 0.885175 */

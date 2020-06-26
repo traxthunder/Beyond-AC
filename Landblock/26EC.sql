@@ -17,13 +17,5 @@ VALUES (0x726EC003, 30438, 0x26EC002E, 137.161, 126.489, 80.005, -0.571666, 0, 0
 /* @teleloc 0x26EC002E [137.160995 126.488998 80.004997] -0.571666 0.000000 0.000000 -0.820487 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x726EC004, 5000890, 0x26EC003D, 174.082, 113.648, 80.055, -0.919602, 0, 0, -0.392852, False, '2020-06-21 20:27:49'); /* SilyunAttack */
-/* @teleloc 0x26EC003D [174.082001 113.648003 80.055000] -0.919602 0.000000 0.000000 -0.392852 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x726EC005, 5000889, 0x26EC003D, 171.893, 119.686, 80.055, -0.747937, 0, 0, -0.66377, False, '2020-06-21 20:28:09'); /* SilyunAttack */
-/* @teleloc 0x26EC003D [171.893005 119.685997 80.055000] -0.747937 0.000000 0.000000 -0.663770 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x726EC006, 5000889, 0x26EC003F, 181.8363, 146.37885, 80.05501, -0.8562338, 0, 0, 0.51658857, False, '2020-06-21 20:28:12'); /* SilyunAttack */
-/* @teleloc 0x26EC003F [181.836304 146.378845 80.055008] -0.856234 0.000000 0.000000 0.516589 */
+VALUES (0x726EC004, 5000889, 0x26EC002E, 133.41801, 140.76627, 80.05501, 0.57819223, 0, 0, -0.81590056, False, '2020-06-25 19:52:48'); /* SilyunAttack */
+/* @teleloc 0x26EC002E [133.418015 140.766266 80.055008] 0.578192 0.000000 0.000000 -0.815901 */
