@@ -387,10 +387,6 @@ VALUES (0x7A9B4081, 42720, 0xA9B40127, 54.1394, 136.119, 66.005, 0.5249, 0, 0, -
 /* @teleloc 0xA9B40127 [54.139400 136.119003 66.004997] 0.524900 0.000000 0.000000 -0.851164 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B4082, 5000842, 0xA9B40021, 96.6953, 15.9884, 94.055, 0.590135, 0, 0, -0.807304, False, '2020-06-21 20:38:22'); /* HoltAttack */
-/* @teleloc 0xA9B40021 [96.695297 15.988400 94.055000] 0.590135 0.000000 0.000000 -0.807304 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B4083, 5000842, 0xA9B40029, 139.862, 0.0484129, 94.055, 0.692093, 0, 0, -0.721808, False, '2020-06-21 20:38:26'); /* HoltAttack */
 /* @teleloc 0xA9B40029 [139.862000 0.048413 94.055000] 0.692093 0.000000 0.000000 -0.721808 */
 
@@ -435,13 +431,21 @@ VALUES (0x7A9B408D, 5000842, 0xA9B4000E, 39.8078, 122.552, 66.055, 0.179231, 0, 
 /* @teleloc 0xA9B4000E [39.807800 122.552002 66.055000] 0.179231 0.000000 0.000000 0.983807 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B408E, 5000842, 0xA9B40012, 61.2878, 38.1617, 86.9135, -0.347467, 0, 0, 0.937692, False, '2020-06-21 20:39:00'); /* HoltAttack */
-/* @teleloc 0xA9B40012 [61.287800 38.161701 86.913498] -0.347467 0.000000 0.000000 0.937692 */
+VALUES (0x7A9B4090, 5000840, 0xA9B40024, 109.38, 93.3977, 80.055, -0.803402, 0, 0, -0.595437, False, '2020-06-21 20:39:24'); /* HoltAttack */
+/* @teleloc 0xA9B40024 [109.379997 93.397697 80.055000] -0.803402 0.000000 0.000000 -0.595437 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B408F, 5000842, 0xA9B40019, 72.0294, 5.39536, 94.055, -0.424587, 0, 0, 0.905387, False, '2020-06-21 20:39:03'); /* HoltAttack */
-/* @teleloc 0xA9B40019 [72.029404 5.395360 94.055000] -0.424587 0.000000 0.000000 0.905387 */
+VALUES (0x7A9B4091, 5000842, 0xA9B4000A, 38.635, 35.7917, 81.1071, 0.609222, 0, 0, 0.793, False, '2020-06-25 19:54:07'); /* HoltAttack */
+/* @teleloc 0xA9B4000A [38.634998 35.791698 81.107101] 0.609222 0.000000 0.000000 0.793000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B4090, 5000840, 0xA9B40024, 109.380035, 93.39768, 80.05501, -0.80340225, 0, 0, -0.59543663, False, '2020-06-21 20:39:24'); /* HoltAttack */
-/* @teleloc 0xA9B40024 [109.380035 93.397682 80.055008] -0.803402 0.000000 0.000000 -0.595437 */
+VALUES (0x7A9B4092, 5000842, 0xA9B4000C, 38.2602, 72.0862, 78.0263, 0.999389, 0, 0, 0.0349444, False, '2020-06-25 19:54:11'); /* HoltAttack */
+/* @teleloc 0xA9B4000C [38.260201 72.086197 78.026299] 0.999389 0.000000 0.000000 0.034944 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A9B4093, 5000842, 0xA9B40032, 165.401, 29.6544, 94.055, -0.814663, 0, 0, 0.579935, False, '2020-06-25 19:54:35'); /* HoltAttack */
+/* @teleloc 0xA9B40032 [165.401001 29.654400 94.055000] -0.814663 0.000000 0.000000 0.579935 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A9B4094, 5000842, 0xA9B4002C, 131.0602, 74.20499, 78.76876, -0.72406787, 0, 0, -0.68972874, False, '2020-06-25 19:54:42'); /* HoltAttack */
+/* @teleloc 0xA9B4002C [131.060196 74.204987 78.768761] -0.724068 0.000000 0.000000 -0.689729 */

@@ -22,8 +22,8 @@ VALUES (5000893,  41,      60) /* RegenerationInterval */
      , (5000893, 121,      10) /* GeneratorInitialDelay */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5000893,   1, 'ZiakAttack') /* Name */
-     , (5000893,  34, 'ZiakAttack') /* GeneratorEvent */;
+VALUES (5000893,   1, 'ZaikAttack') /* Name */
+     , (5000893,  34, 'ZaikAttack') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5000893,   1,   33555051) /* Setup */
