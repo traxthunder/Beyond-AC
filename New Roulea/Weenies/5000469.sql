@@ -47,7 +47,7 @@ VALUES (5000469,  21,       0) /* WeaponLength */
      , (5000469,  26, 24.8999996185303) /* MaximumVelocity */
      , (5000469,  29,       1.20) /* WeaponDefense */
      , (5000469,  62,       1) /* WeaponOffense */
-     , (5000469,  63, 2.85) /* DamageMod */
+     , (5000469,  63, 3.01) /* DamageMod */
      , (5000469, 39,  1.4);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
