@@ -25,12 +25,12 @@ VALUES (5001145,   1,        256) /* ItemType - MissileWeapon */
      , (5001145, 150,        103) /* HookPlacement - Hook */
      , (5001145, 151,          2) /* HookType - Wall */
      , (5001145, 169,  101187850) /* TsysMutationData */
-     , (5001145, 353,          8) /* WeaponType - Bow */;
-     , (5001145, 158,            2) /* Queries attack skill*/;
-     , (5001145, 114,           47) /* Sets MW requirement*/;
-     , (5001145,  33,          250) /* Sets skill req*/;
-     , (5001145, 179,          512) /* Rending */;
-     , (5001145, 114,          1) /* sets attuned */;
+     , (5001145, 353,          8) /* WeaponType - Bow */
+     , (5001145, 158,            2) /* Queries attack skill*/
+     , (5001145, 114,           47) /* Sets MW requirement*/
+     , (5001145,  33,          250) /* Sets skill req*/
+     , (5001145, 179,          512) /* Rending */
+     , (5001145, 114,          1) /* sets attuned */
      , (5001145,  33,          1) /* sets bonded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
