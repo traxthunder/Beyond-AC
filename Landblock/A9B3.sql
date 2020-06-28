@@ -46,7 +46,3 @@ VALUES (0x7A9B3011, 0x7A9B3012, '2019-11-17 10:00:00') /* The Chicken (25578) */
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B3012, 25578, 0xA9B30006, 18.0792, 125.216, 93.992, 1, 0, 0, 0,  True, '2019-11-17 03:38:31'); /* The Chicken */
 /* @teleloc 0xA9B30006 [18.079201 125.216003 93.991997] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B3013, 5000842, 0xA9B30020, 89.99482, 180.93138, 95.8213, -0.7210393, 0, 0, 0.69289416, False, '2020-06-21 20:39:07'); /* HoltAttack */
-/* @teleloc 0xA9B30020 [89.994820 180.931381 95.821297] -0.721039 0.000000 0.000000 0.692894 */

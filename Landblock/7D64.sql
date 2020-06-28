@@ -301,10 +301,6 @@ VALUES (0x77D64073, 5000868, 0x7D64000B, 47.6839, 70.1786, 12.055, -0.856273, 0,
 /* @teleloc 0x7D64000B [47.683899 70.178596 12.055000] -0.856273 0.000000 0.000000 -0.516523 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D64074, 5000868, 0x7D64000D, 39.2732, 115.097, 11.7364, -0.956762, 0, 0, 0.290872, False, '2020-06-20 01:12:31'); /* YaraqAttack */
-/* @teleloc 0x7D64000D [39.273201 115.097000 11.736400] -0.956762 0.000000 0.000000 0.290872 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D64075, 5000868, 0x7D640016, 68.0433, 136.027, 12.055, -0.946133, 0, 0, 0.323778, False, '2020-06-20 01:12:36'); /* YaraqAttack */
 /* @teleloc 0x7D640016 [68.043297 136.026993 12.055000] -0.946133 0.000000 0.000000 0.323778 */
 
@@ -329,13 +325,21 @@ VALUES (0x77D6407A, 5000868, 0x7D640024, 110.57, 75.793, 12.055, 0.62989, 0, 0, 
 /* @teleloc 0x7D640024 [110.570000 75.792999 12.055000] 0.629890 0.000000 0.000000 0.776684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D6407B, 5000868, 0x7D640015, 70.6886, 100.629, 12.055, 0.970661, 0, 0, 0.240454, False, '2020-06-20 01:12:57'); /* YaraqAttack */
-/* @teleloc 0x7D640015 [70.688599 100.628998 12.055000] 0.970661 0.000000 0.000000 0.240454 */
+VALUES (0x77D6407D, 5000868, 0x7D64001D, 81.7958, 106.999, 12.055, -0.735152, 0, 0, 0.677902, False, '2020-06-20 01:13:09'); /* YaraqAttack */
+/* @teleloc 0x7D64001D [81.795799 106.999001 12.055000] -0.735152 0.000000 0.000000 0.677902 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D6407C, 5000868, 0x7D640014, 51.425, 87.9829, 12.055, 0.459971, 0, 0, 0.887934, False, '2020-06-20 01:13:00'); /* YaraqAttack */
-/* @teleloc 0x7D640014 [51.424999 87.982903 12.055000] 0.459971 0.000000 0.000000 0.887934 */
+VALUES (0x77D6407E, 5000868, 0x7D64001C, 72.0486, 80.7755, 12.055, 0.14942, 0, 0, -0.988774, False, '2020-06-25 20:08:22'); /* YaraqAttack */
+/* @teleloc 0x7D64001C [72.048599 80.775497 12.055000] 0.149420 0.000000 0.000000 -0.988774 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D6407D, 5000868, 0x7D64001D, 81.7958, 106.999214, 12.054999, -0.7351525, 0, 0, 0.6779018, False, '2020-06-20 01:13:09'); /* YaraqAttack */
-/* @teleloc 0x7D64001D [81.795799 106.999214 12.054999] -0.735152 0.000000 0.000000 0.677902 */
+VALUES (0x77D6407F, 5000868, 0x7D640019, 93.0076, 21.2563, 12.055, 0.883193, 0, 0, -0.469009, False, '2020-06-25 20:08:29'); /* YaraqAttack */
+/* @teleloc 0x7D640019 [93.007599 21.256300 12.055000] 0.883193 0.000000 0.000000 -0.469009 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77D64080, 5000868, 0x7D640023, 101.997, 58.7492, 12.055, 0.999117, 0, 0, -0.0420074, False, '2020-06-25 20:08:33'); /* YaraqAttack */
+/* @teleloc 0x7D640023 [101.997002 58.749199 12.055000] 0.999117 0.000000 0.000000 -0.042007 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77D64081, 5000868, 0x7D64000B, 46.32492, 65.95322, 12.054999, -0.34524342, 0, 0, 0.93851316, False, '2020-06-25 20:08:43'); /* YaraqAttack */
+/* @teleloc 0x7D64000B [46.324921 65.953217 12.054999] -0.345243 0.000000 0.000000 0.938513 */

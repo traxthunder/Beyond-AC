@@ -44,7 +44,7 @@ VALUES (5000342,   1,       5) /* HeartbeatInterval */
      , (5000342,  17,     0.4) /* ArmorModVsFire */
      , (5000342,  18,       1) /* ArmorModVsAcid */
      , (5000342,  19,     0.6) /* ArmorModVsElectric */
-     , (5000342,  37,       2) /* BuyPrice */
+     , (5000342,  37,       1) /* BuyPrice */
      , (5000342,  38,       1) /* SellPrice */
      , (5000342,  54,       3) /* UseRadius */
      , (5000342,  64,       1) /* ResistSlash */
@@ -153,8 +153,8 @@ VALUES (5000342, 2,  6061,  0, 0, 0, False) /* Create Festival Robe for Wield */
 	 , (5000342, 4,  8363, -1, 0, 0, False) /* Create Prismatic Taper for Shop */
      , (5000342, 4, 7770, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (5000342, 4, 42210, -1, 0, 0, False) /* Create Bundle of Greater Prismatic Arrowheads (44069) for Shop */
-     , (5000342, 4, 42208, -1, 0, 0, False) /* Create Bundle of Deadly Prismatic Arrowheads (44068) for Shop */
-     , (5000342, 4, 24033, -1, 0, 0, False) /* Create Bundle of Greater Deadly Arrowheads (44359) for Shop */
+     , (5000342, 4, 42207, -1, 0, 0, False) /* Create Bundle of Deadly Prismatic Arrowheads (44068) for Shop */
+     , (5000342, 4, 2031, -1, 0, 0, False) /* Create Bundle of Greater Deadly Arrowheads (44359) for Shop */
      , (5000342, 4, 1439, -1, 0, 0, False) /* Create Bundle of Greater Deadly Blunt Arrowheads (44360) for Shop */
      , (5000342, 4, 1481, -1, 0, 0, False) /* Create Bundle of Greater Deadly Broad Arrowheads (44361) for Shop */
      , (5000342, 4, 31363, -1, 0, 0, False) /* Create Bundle of Greater Deadly Armor Piercing Arrowheads (44362) for Shop */

@@ -60,14 +60,6 @@ VALUES (0x72BB500E, 32084, 0x2BB50117, 107.61, 81.9146, 0.105, 0.83373, 0, 0, 0.
 /* @teleloc 0x2BB50117 [107.610001 81.914597 0.105000] 0.833730 0.000000 0.000000 0.552172 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72BB500F, 5000860, 0x2BB5003D, 185.977, 105.705, 0.055, 0.433661, 0, 0, -0.901076, False, '2020-06-20 01:10:24'); /* GspireAttack */
-/* @teleloc 0x2BB5003D [185.977005 105.705002 0.055000] 0.433661 0.000000 0.000000 -0.901076 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72BB5010, 5000861, 0x2BB5003D, 185.977, 105.705, 0.055, 0.433661, 0, 0, -0.901076, False, '2020-06-20 01:10:37'); /* GSpireAttack */
-/* @teleloc 0x2BB5003D [185.977005 105.705002 0.055000] 0.433661 0.000000 0.000000 -0.901076 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BB5011, 5000861, 0x2BB50035, 148.233, 106.179, 0.055, 0.6112, 0, 0, 0.791476, False, '2020-06-20 01:10:59'); /* GSpireAttack */
 /* @teleloc 0x2BB50035 [148.233002 106.179001 0.055000] 0.611200 0.000000 0.000000 0.791476 */
 
@@ -76,9 +68,5 @@ VALUES (0x72BB5012, 5000861, 0x2BB50034, 153.762, 81.7366, 3.61442, -0.359179, 0
 /* @teleloc 0x2BB50034 [153.761993 81.736603 3.614420] -0.359179 0.000000 0.000000 0.933269 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72BB5013, 5000861, 0x2BB5003B, 181.293, 63.0641, 3.77831, -0.425509, 0, 0, 0.904954, False, '2020-06-20 01:11:06'); /* GSpireAttack */
-/* @teleloc 0x2BB5003B [181.292999 63.064098 3.778310] -0.425509 0.000000 0.000000 0.904954 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72BB5014, 5000861, 0x2BB5003E, 191.25327, 132.62875, 0.05499996, -0.98447084, 0, 0, 0.17554827, False, '2020-06-20 01:11:14'); /* GSpireAttack */
-/* @teleloc 0x2BB5003E [191.253265 132.628754 0.055000] -0.984471 0.000000 0.000000 0.175548 */
+VALUES (0x72BB5014, 5000861, 0x2BB5003E, 191.253, 132.629, 0.055, -0.984471, 0, 0, 0.175548, False, '2020-06-20 01:11:14'); /* GSpireAttack */
+/* @teleloc 0x2BB5003E [191.253006 132.628998 0.055000] -0.984471 0.000000 0.000000 0.175548 */

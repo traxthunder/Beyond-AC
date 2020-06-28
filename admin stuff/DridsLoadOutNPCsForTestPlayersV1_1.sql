@@ -346,7 +346,12 @@ VALUES (99151, 2,  32187,  0, 0, 0, False) /* Create Festival Robe for Wield */
 	 , (99151, 4, 30936, -1, 0, 0, False) /* rare backpack  for Shop */	
        , (99151, 4, 5000811, -1, 0, 0, False) /* clutch of the miser aug  for Shop */
 	 , (99151, 4, 5000812, -1, 0, 0, False) /* endurng enchantment aug  for Shop */
-	 , (99151, 4, 5000813, -1, 0, 0, False) /* rare backpack  for Shop */;
+	 , (99151, 4, 5000813, -1, 0, 0, False) /* rare backpack  for Shop */
+	 , (99151, 4, 36358, -1, 0, 0, False) /* rare backpack  for Shop */
+	 , (99151, 4, 25843, -1, 0, 0, False) /* rare backpack  for Shop */
+	 , (99151, 4, 5000919, -1, 0, 0, False) /* rare backpack  for Shop */
+	 , (99151, 4, 5000920, -1, 0, 0, False) /* rare backpack  for Shop */
+	 , (99151, 4, 5000497, -1, 0, 0, False) /* rare backpack  for Shop */;
      
      DELETE FROM `weenie` WHERE `class_Id` = 99155;
 

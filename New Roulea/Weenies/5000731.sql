@@ -11,7 +11,7 @@ VALUES (5000731,   1,      32768) /* ItemType - Caster */
      , (5000731,   9,   16777216) /* ValidLocations - Held */
      , (5000731,  16,          1) /* ItemUseable - No */
      , (5000731,  18,       256) /* UiEffects - Piercing */
-     , (5000731,  19,          0) /* Value */
+     , (5000731,  19,          10) /* Value */
      , (5000731,  45,          32) /* DamageType - Pierce */
      , (5000731,  46,        512) /* DefaultCombatStyle - Magic */
      , (5000731,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
