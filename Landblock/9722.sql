@@ -229,7 +229,7 @@ VALUES (0x79722053, 36720, 0x97220149, 66, 104, 102.005, 1, 0, 0, 0, False, '201
 /* @teleloc 0x97220149 [66.000000 104.000000 102.004997] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79722054, 36533, 0x9722014C, 55.379, 102.904, 102.005, -0.796833, 0, 0, 0.604199, False, '2019-04-08 08:19:57'); /* Guard Taziq */
+VALUES (0x79722054, 36533, 0x9722014C, 55.379, 102.904, 102.005, -0.796833, 0, 0, 0.604199, False, '2019-04-08 08:19:57');
 /* @teleloc 0x9722014C [55.379002 102.903999 102.004997] -0.796833 0.000000 0.000000 0.604199 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -285,5 +285,9 @@ VALUES (0x79722061, 5000888, 0x9722001D, 76.9861, 114.068, 102.055, -0.245618, 0
 /* @teleloc 0x9722001D [76.986099 114.068001 102.055000] -0.245618 0.000000 0.000000 0.969367 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79722062, 5000884, 0x9722001D, 83.22067, 98.316124, 102.05501, -0.8471326, 0, 0, 0.5313815, False, '2020-06-26 11:08:10');
-/* @teleloc 0x9722001D [83.220673 98.316124 102.055008] -0.847133 0.000000 0.000000 0.531381 */
+VALUES (0x79722062, 5000884, 0x9722001D, 83.2207, 98.3161, 102.055, -0.847133, 0, 0, 0.531381, False, '2020-06-26 11:08:10');
+/* @teleloc 0x9722001D [83.220703 98.316101 102.055000] -0.847133 0.000000 0.000000 0.531381 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79722063, 5000884, 0x9722000F, 42.51577, 147.61491, 102.05501, 0.6058425, 0, 0, 0.7955846, False, '2020-06-27 20:57:32');
+/* @teleloc 0x9722000F [42.515770 147.614914 102.055008] 0.605842 0.000000 0.000000 0.795585 */
