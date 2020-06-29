@@ -27,8 +27,7 @@ VALUES (5000907,   1, True ) /* Stuck */
      , (5000907,  29, True ) /* NoCorpse */
      , (5000907,  41, True ) /* ReportCollisionsAsEnvironment */
      , (5000907,  42, True ) /* AllowEdgeSlide */
-     , (5000907,  52, True ) /* AiImmobile */
-     , (5000907,  79, True ) /* AiAcceptEverything */;
+     , (5000907,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5000907,   1,       5) /* HeartbeatInterval */
@@ -63,7 +62,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5000907,   1, 'World Boss Collector') /* Name */
      , (5000907,   3, 'Female') /* Sex */
      , (5000907,   4, 'Aluvian') /* HeritageGroup */
-     , (5000907,   5, 'Herald') /* Template */;
+     , (5000907,   5, 'Collector') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5000907,   1,   33554510) /* Setup */
