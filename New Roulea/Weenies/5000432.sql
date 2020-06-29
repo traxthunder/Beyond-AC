@@ -16,16 +16,16 @@ VALUES (5000432,   1,          2) /* ItemType - Armor */
      , (5000432,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5000432, 150,        103) /* HookPlacement - Hook */
      , (5000432, 151,          2) /* HookType - Wall */
-     , (5000432,  28,        600) /*== ArmorLevel */
+     , (5000432,  28,        450) /*== ArmorLevel */
      , (5000432,  33,          1) /*== Bonded - Bonded */
      , (5000432, 114,          1) /*== Attuned - Attuned */
      , (5000432, 158,          7) /*== WieldRequirements - Base Skill */
      , (5000432, 160,        200) /*== WieldDifficulty */
      , (5000432, 169,  168429060) /* TsysMutationData */
-          , (5000432, 106,        150) /* ItemSpellcraft */
-               , (5000432, 107,        2000) /* ItemCurMana */
-                    , (5000432, 108,        2000) /* ItemMaxMana */
-                , (5000432, 109,         250) /* ItemDifficulty */
+     , (5000432, 106,        150) /* ItemSpellcraft */
+     , (5000432, 107,        2000) /* ItemCurMana */
+     , (5000432, 108,        2000) /* ItemMaxMana */
+     , (5000432, 109,         250) /* ItemDifficulty */
      , (5000432, 159,          1);
 
 INSERT INTO weenie_properties_bool (object_Id, type, value)
@@ -61,7 +61,7 @@ VALUES (5000432,   1,   33554650) /* Setup */
 INSERT INTO weenie_properties_spell_book (object_Id, spell, probability)
 VALUES      (5000432,  2081,      2)  /* Hastening */
      , (5000432,  4019,      2)  /* Hastening */
-          , (5000432,  2280,      2)  /* Magic D */
+     , (5000432,  2280,      2)  /* Magic D */
      , (5000432,  4704,      2)  
      , (5000432,  2267,      2)  /* Harlune's Blessing */
      , (5000432,  4700,      2)  /* Harlune's Blessing */    ;

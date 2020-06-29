@@ -17,7 +17,7 @@ VALUES (5000545,   1,          2) /* ItemType - Armor */
      , (5000545,  44,          3) /* Damage */
      , (5000545,  45,          4) /* DamageType - Bludgeon */
      , (5000545,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5000545,  28,        700) /*== ArmorLevel */
+     , (5000545,  28,        500) /*== ArmorLevel */
      , (5000545,  33,          1) /*== Bonded - Bonded */
      , (5000545, 114,          1) /*== Attuned - Attuned */
      , (5000545, 158,          7) /*== WieldRequirements - Base Skill */

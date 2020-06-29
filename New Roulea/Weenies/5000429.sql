@@ -14,7 +14,7 @@ VALUES (5000429,   1,          2) /* ItemType - Armor */
      , (5000429,  19,        5) /* Value */
      , (5000429,  27,          8) /* ArmorType - Scalemail */
      , (5000429,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5000429,  28,        600) /*== ArmorLevel */
+     , (5000429,  28,        450) /*== ArmorLevel */
      , (5000429,  33,          1) /*== Bonded - Bonded */
      , (5000429, 114,          1) /*== Attuned - Attuned */
      , (5000429, 158,          7) /*== WieldRequirements - Base Skill */

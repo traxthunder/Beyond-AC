@@ -9,7 +9,7 @@ VALUES (5000495,   1,        128) /* ItemType - Misc */
      , (5000495,  11,        100) /* MaxStackSize */
      , (5000495,  12,          1) /* StackSize */
      , (5000495,  16,          1) /* ItemUseable - No */
-     , (5000495,  19,          10) /* Value */
+     , (5000495,  19,          20) /* Value */
      , (5000495,  18,          16) /* ItemUseable - No */
      , (5000495,  33,          1) /* Bonded - Bonded */
      , (5000495,  53,        101) /* PlacementPosition - Resting */
