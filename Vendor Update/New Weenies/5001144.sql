@@ -44,7 +44,7 @@ VALUES (5001144,  21,       0) /* WeaponLength */
      , (5001144,  29,       1.06) /* WeaponDefense */
      , (5001144,  39, 1.10000002384186) /* DefaultScale */
      , (5001144,  62,       1) /* WeaponOffense */
-     , (5001144,  63,     1.08) /* DamageMod */;
+     , (5001144,  63,     1.6) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5001144,   1, 'Shoddy Shouyumi of Winter') /* Name */;

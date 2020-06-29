@@ -26,9 +26,6 @@ VALUES (5001145,   1,        256) /* ItemType - MissileWeapon */
      , (5001145, 151,          2) /* HookType - Wall */
      , (5001145, 169,  101187850) /* TsysMutationData */
      , (5001145, 353,          8) /* WeaponType - Bow */
-     , (5001145, 158,          2) /* Queries attack skill*/
-     , (5001145, 159,         47) /* Sets MW requirement*/
-     , (5001145, 160,        250) /* Sets skill req*/
      , (5001145, 179,        512) /* Rending */
      , (5001145, 114,          1) /* sets attuned */
      , (5001145,  33,          1) /* sets bonded */;
@@ -47,7 +44,7 @@ VALUES (5001145,  21,       0) /* WeaponLength */
      , (5001145,  29,       1.06) /* WeaponDefense */
      , (5001145,  39, 1.10000002384186) /* DefaultScale */
      , (5001145,  62,       1) /* WeaponOffense */
-     , (5001145,  63,     1.08) /* DamageMod */
+     , (5001145,  63,     1.6) /* DamageMod */
      , (5001145, 149,       1) /* WeaponMissileDefense */
      , (5001145, 150,       1) /* WeaponMagicDefense */;
 
