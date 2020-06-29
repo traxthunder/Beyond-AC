@@ -43,7 +43,7 @@ VALUES (5001150,  21,       0) /* WeaponLength */
      , (5001150,  29,       1.06) /* WeaponDefense */
      , (5001150,  39, 1.10000002384186) /* DefaultScale */
      , (5001150,  62,       1) /* WeaponOffense */
-     , (5001150,  63,     1.08) /* DamageMod */
+     , (5001150,  63,     1.6) /* DamageMod */
      , (5001150, 149,       1) /* WeaponMissileDefense */
      , (5001150, 150,       1) /* WeaponMagicDefense */;
 
