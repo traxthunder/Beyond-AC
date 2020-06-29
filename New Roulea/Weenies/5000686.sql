@@ -26,9 +26,11 @@ VALUES (5000686,   1,      32768) /* ItemType - Caster */
      , (5000686, 169,  118162702) /* TsysMutationData */
      , (5000686, 179,        2) /* ImbuedEffect - FireRending */
      , (5000686, 353,          0) /* WeaponType - Undef */  
-        , (5000686, 158,         7) /* level to wield */
+     , (5000686, 158,         7) /* level to wield */
      , (5000686, 159,         1) /* Level to wield */ 
-     , (5000686, 160,         230) /* level to wield */ ;
+     , (5000686, 160,         230) /* level to wield */
+     , (5000686, 114,         1) /* Attuned */
+     , (5000686,  33,          1) /* Bonded - Bonded */;
 
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,7 +50,7 @@ VALUES (5000686,   5, -0.0333333015441895) /* ManaRate */
      , (5000686, 152, 1.2);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5000686,   1, 'Magic Staff') /* Name */;
+VALUES (5000686,   1, 'Nether Crippling Staff MK II') /* Name */;
     
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -66,6 +68,5 @@ VALUES (5000686,   1,   33555022) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5000686,   4602,      2)  /* Leaden Feet Self II */
      , (5000686,  4530,      2)  /* Incantation of Bludgeoning Protection Self */
-     , (5000686,  4282,      2)  /* Incantation of Fire Protection Self */
      , (5000686, 4564,      2)  /* Incantation of Mana Renewal Self */
      , (5000686,  4705,      2)  /* Epic Mana Conversion Prowess */;
