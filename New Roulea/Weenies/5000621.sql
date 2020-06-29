@@ -151,6 +151,7 @@ VALUES (5000621, 2,  5850,  0, 0, 0, False) /* Create Festival Robe for Wield */
      , (5000621, 4,  5000681, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (5000621, 4,  5000682, -1, 0, 0, False) /* Create Mana Scarab for Shop */
      , (5000621, 4,  5000683, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
+     , (5000621, 4,  5000684, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (5000621, 4,  5000685, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
      , (5000621, 4,  5000686, -1, 0, 0, False) /* Create Silver Scarab (688) for Shop */
      , (5000621, 4,  5000687, -1, 0, 0, False) /* Create Gold Scarab (687) for Shop */
@@ -160,4 +161,6 @@ VALUES (5000621, 2,  5850,  0, 0, 0, False) /* Create Festival Robe for Wield */
      , (5000621, 4,  5000691, -1, 0, 0, False) /* Create Diamond Scarab (7299) for Shop */
      , (5000621, 4,  5000692, -1, 0, 0, False) /* Create Diamond Scarab (7299) for Shop */
      , (5000621, 4,  5000693, -1, 0, 0, False) /* Create Diamond Scarab (7299) for Shop */
+     , (5000621, 4,  5000694, -1, 0, 0, False) /* Create Diamond Scarab (7299) for Shop */
      , (5000621, 4,  5000695, -1, 0, 0, False) /* Create Diamond Scarab (7299) for Shop */;
+     
