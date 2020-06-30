@@ -11,8 +11,9 @@ VALUES (5001147,   1,        256) /* ItemType - MissileWeapon */
      , (5001147,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (5001147,  16,          1) /* ItemUseable - No */
      , (5001147,  18,         256) /* UiEffects - Acid */
-     , (5001147,  19,        300) /* Value */
+     , (5001147,  19,        200000) /* Value */
      , (5001147,  44,          0) /* Damage */
+     , (5001147,  45,          32) /* DamageType - Slash */
      , (5001147,  46,         16) /* DefaultCombatStyle - Bow */
      , (5001147,  48,         47) /* WeaponSkill - MissileWeapons */
      , (5001147,  49,         35) /* WeaponTime */

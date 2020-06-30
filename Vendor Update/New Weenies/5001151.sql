@@ -1,10 +1,4 @@
-DELETE FROM weenie WHERE class_Id = 5001151;
-
-INSERT INTO weenie (class_Id, class_Name, type)
-VALUES (5001151, '5001151', 256) /* MissileLauncher */;
-
-INSERT INTO weenie_properties_int (object_Id, type, value)
-VALUES DELETE FROM `weenie` WHERE `class_Id` = 5001151;
+DELETE FROM `weenie` WHERE `class_Id` = 5001151;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (5001151, 5001151, 3, '2019-02-04 06:52:23') /* MissileLauncher */;
@@ -16,9 +10,9 @@ VALUES (5001151,   1,        256) /* ItemType - MissileWeapon */
      , (5001151,   8,         90) /* Mass */
      , (5001151,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (5001151,  16,          1) /* ItemUseable - No */
-     , (5001151,  18,        128) /* UiEffects - Frost */
-     , (5001151,  19,        300) /* Value */
+     , (5001151,  19,        200000) /* Value */
      , (5001151,  44,          0) /* Damage */
+     , (5001151,  45,          1) /* DamageType - Slash */
      , (5001151,  46,         16) /* DefaultCombatStyle - Bow */
      , (5001151,  48,         47) /* WeaponSkill - MissileWeapons */
      , (5001151,  49,         35) /* WeaponTime */
@@ -32,7 +26,7 @@ VALUES (5001151,   1,        256) /* ItemType - MissileWeapon */
      , (5001151, 151,          2) /* HookType - Wall */
      , (5001151, 169,  101187850) /* TsysMutationData */
      , (5001151, 353,          8) /* WeaponType - Bow */
-     , (5001151, 179,        4) /* Rending */
+     , (5001151, 179,         4) /* Rending */
      , (5001151, 114,          1) /* sets attuned */
      , (5001151,  33,          1) /* sets bonded */;
 
@@ -50,12 +44,14 @@ VALUES (5001151,  21,       0) /* WeaponLength */
      , (5001151,  29,       1.06) /* WeaponDefense */
      , (5001151,  39, 1.10000002384186) /* DefaultScale */
      , (5001151,  62,       1) /* WeaponOffense */
-     , (5001151,  63,     1.6) /* DamageMod */;
+     , (5001151,  63,     1.6) /* DamageMod */
+     , (5001151, 149,       1) /* WeaponMissileDefense */
+     , (5001151, 150,       1) /* WeaponMagicDefense */;
 
-INSERT INTO weenie_properties_string (object_Id, type, value)
-VALUES (5001151,   1, 'Shoddy Shouyumi of Shield-Breaking') /* Name */;
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5001151,   1, 'Shoddy Shouyumi of Shield Breaking') /* Name */;
 
-INSERT INTO weenie_properties_d_i_d (object_Id, type, value)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5001151,   1,   33554729) /* Setup */
      , (5001151,   3,  536870932) /* SoundTable */
      , (5001151,   6,   67111919) /* PaletteBase */
@@ -64,4 +60,4 @@ VALUES (5001151,   1,   33554729) /* Setup */
      , (5001151,  22,  872415275) /* PhysicsEffectTable */
      , (5001151,  36,  234881053) /* MutateFilter */
      , (5001151,  46,  939524104) /* TsysMutationFilter */
-     , (5001151,  52, 0x06003356) /* ArmorRend*/;
+     , (5001151,  52, 0x06003356) /* PierceRend*/;
