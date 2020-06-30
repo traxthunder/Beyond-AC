@@ -11,8 +11,9 @@ VALUES (5001145,   1,        256) /* ItemType - MissileWeapon */
      , (5001145,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (5001145,  16,          1) /* ItemUseable - No */
      , (5001145,  18,         32) /* UiEffects - Fire */
-     , (5001145,  19,        300) /* Value */
+     , (5001145,  19,        200000) /* Value */
      , (5001145,  44,          0) /* Damage */
+     , (5001145,  45,          16) /* DamageType - Slash */
      , (5001145,  46,         16) /* DefaultCombatStyle - Bow */
      , (5001145,  48,         47) /* WeaponSkill - MissileWeapons */
      , (5001145,  49,         35) /* WeaponTime */

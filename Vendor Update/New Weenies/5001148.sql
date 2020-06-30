@@ -10,8 +10,9 @@ VALUES (5001148,   1,        256) /* ItemType - MissileWeapon */
      , (5001148,   8,         90) /* Mass */
      , (5001148,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (5001148,  16,          1) /* ItemUseable - No */
-     , (5001148,  19,        300) /* Value */
+     , (5001148,  19,        200000) /* Value */
      , (5001148,  44,          0) /* Damage */
+     , (5001148,  45,          1) /* DamageType - Slash */
      , (5001148,  46,         16) /* DefaultCombatStyle - Bow */
      , (5001148,  48,         47) /* WeaponSkill - MissileWeapons */
      , (5001148,  49,         35) /* WeaponTime */

@@ -1995,3 +1995,7 @@ VALUES (0x7F2DA253, 5000765, 0xF2DA0028, 103.702, 189.083, 0.055, -0.703518, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F2DA254, 42852, 0xF2DA0009, 47.9558, 0.649329, -0.063, -0.0123106, 0, 0, -0.999924, False, '2020-05-21 14:11:07'); /* Portal to Town Network */
 /* @teleloc 0xF2DA0009 [47.955799 0.649329 -0.063000] -0.012311 0.000000 0.000000 -0.999924 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F2DA255, 5000949, 0xF2DA015C, 60.198814, 85.687416, 3.005, -0.91420144, 0, 0, 0.40526006, False, '2020-06-29 20:29:37'); /* Katurn Holis Missile Weapons Vendor */
+/* @teleloc 0xF2DA015C [60.198814 85.687416 3.005000] -0.914201 0.000000 0.000000 0.405260 */
