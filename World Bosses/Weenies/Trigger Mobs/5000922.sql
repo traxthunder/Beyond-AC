@@ -17,7 +17,7 @@ VALUES (5000922,   1, True ) /* Stuck */
      , (5000922,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5000922,  41,       120) /* RegenerationInterval */
+VALUES (5000922,  41,       240) /* RegenerationInterval */
      , (5000922,  43,       1) /* GeneratorRadius */
      , (5000922, 121,       10) /* GeneratorInitialDelay */;
 
