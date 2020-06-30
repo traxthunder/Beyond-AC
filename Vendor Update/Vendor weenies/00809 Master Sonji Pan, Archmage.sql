@@ -14,7 +14,7 @@ VALUES (809,   1,         16) /* ItemType - Creature */
      , (809,  27,          0) /* ArmorType - None */
      , (809,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (809,  75,          0) /* MerchandiseMinValue */
-     , (809,  76,      25000) /* MerchandiseMaxValue */
+     , (809,  76,      250000) /* MerchandiseMaxValue */
      , (809,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (809, 126,        500) /* VendorHappyMean */
      , (809, 127,        250) /* VendorHappyVariance */

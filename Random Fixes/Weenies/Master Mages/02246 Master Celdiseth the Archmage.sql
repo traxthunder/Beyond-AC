@@ -386,4 +386,4 @@ VALUES (2246, 2,  5909,  0, 0, 0, False) /* Create Faran War Master Robe (5909) 
      , (2246, 4,  8983, -1, 0, 0, False) /* Create Yanshi Portal Gem (8983) for Shop */
      , (2246, 4,  8984, -1, 0, 0, False) /* Create Yaraq Portal Gem (8984) for Shop */
      , (2246, 4, 43020, -1, 0, 0, False) /* Create Town Network Portal Gem (43020) for Shop */
-     , (2247, 4,  20963, -1, 0, 0, False) /* Create Scroll of Lifestone Recall (2903) for Shop */;
+     , (2246, 4,  20963, -1, 0, 0, False) /* Create Scroll of Lifestone Recall (2903) for Shop */;
