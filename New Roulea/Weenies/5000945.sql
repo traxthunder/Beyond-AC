@@ -10,10 +10,10 @@ VALUES (5000945,   1,        256) /* ItemType - MissileWeapon */
      , (5000945,   8,         15) /* Mass */
      , (5000945,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (5000945,  16,          1) /* ItemUseable - No */
-     , (5000945,  19,     10) /* Value */
+     , (5000945,  19,         10) /* Value */
      , (5000945,  33,          1) /* Bonded - Bonded */
-     , (5000945,  44,          22) /* Damage */
-     , (5000945,  45,          16) /* DamageType - Slash */
+     , (5000945,  44,          0) /* Damage */
+     , (5000945,  45,         16) /* DamageType - Fire */
      , (5000945,  46,       1024) /* DefaultCombatStyle - Atlatl */
      , (5000945,  48,         47) /* WeaponSkill - MissileWeapons */
      , (5000945,  49,         15) /* WeaponTime */
@@ -26,10 +26,11 @@ VALUES (5000945,   1,        256) /* ItemType - MissileWeapon */
      , (5000945, 150,        103) /* HookPlacement - Hook */
      , (5000945, 151,          2) /* HookType - Wall */
      , (5000945, 169,  101189386) /* TsysMutationData */
-     , (5000945, 179,          512) /* ImbuedEffect - SlashRending */
+     , (5000945, 179,        512) /* ImbuedEffect - SlashRending */
      , (5000945, 353,         10) /* WeaponType - Thrown */
      , (5000945, 158,          2) /* WieldRequirements - RawSkill */
      , (5000945, 159,         47) /* WieldSkillType - MissileWeapons */
+     , (5000945, 204,         22) /* ElementalDamageBonus */
      , (5000945, 160,        385) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

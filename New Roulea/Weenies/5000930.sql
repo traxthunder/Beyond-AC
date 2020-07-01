@@ -12,7 +12,8 @@ VALUES (5000930,   1,        256) /* ItemType - MissileWeapon */
      , (5000930,  16,          1) /* ItemUseable - No */
      , (5000930,  19,        10) /* Value */
      , (5000930,  33,          1) /* Bonded - Bonded */
-     , (5000930,  44,          22) /* Damage */
+     , (5000930,  44,          0) /* Damage */
+     , (5000930,  45,          2) /* DamageType - Pierce */
      , (5000930,  46,         16) /* DefaultCombatStyle - Bow */
      , (5000930,  48,         47) /* WeaponSkill - MissileWeapons */
      , (5000930,  49,         35) /* WeaponTime */
@@ -29,7 +30,8 @@ VALUES (5000930,   1,        256) /* ItemType - MissileWeapon */
      , (5000930, 159,         47) /* WieldSkillType - MissileWeapons */
      , (5000930, 160,        385) /* WieldDifficulty */
      , (5000930, 169,  101187850) /* TsysMutationData */
-     , (5000930, 179,        16) /* ImbuedEffect - FireRending */
+     , (5000930, 179,         16) /* ImbuedEffect - FireRending */
+     , (5000930, 204,         22) /* ElementalDamageBonus */
      , (5000930, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
