@@ -12,8 +12,8 @@ VALUES (5000947,   1,        256) /* ItemType - MissileWeapon */
      , (5000947,  16,          1) /* ItemUseable - No */
      , (5000947,  19,     10) /* Value */
      , (5000947,  33,          1) /* Bonded - Bonded */
-     , (5000947,  44,          22) /* Damage */
-     , (5000947,  45,          64) /* DamageType - Slash */
+     , (5000947,  44,          0) /* Damage */
+     , (5000947,  45,         64) /* DamageType - Electric */
      , (5000947,  46,       1024) /* DefaultCombatStyle - Atlatl */
      , (5000947,  48,         47) /* WeaponSkill - MissileWeapons */
      , (5000947,  49,         15) /* WeaponTime */
@@ -30,6 +30,7 @@ VALUES (5000947,   1,        256) /* ItemType - MissileWeapon */
      , (5000947, 353,         10) /* WeaponType - Thrown */
      , (5000947, 158,          2) /* WieldRequirements - RawSkill */
      , (5000947, 159,         47) /* WieldSkillType - MissileWeapons */
+     , (5000947, 204,         22) /* ElementalDamageBonus */
      , (5000947, 160,        385) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

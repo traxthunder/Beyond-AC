@@ -10,8 +10,8 @@ VALUES (5000694,   1,      32768) /* ItemType - Caster */
      , (5000694,   8,         90) /* Mass */
      , (5000694,   9,   16777216) /* ValidLocations - Held */
      , (5000694,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
-     , (5000694,  19,      10) /* Value */
-     , (5000694,  45,          2) /* DamageType - Pierce */
+     , (5000694,  19,         10) /* Value */
+     , (5000694,  45,       1024) /* DamageType - Nether */
      , (5000694,  52,          1) /* ParentLocation - RightHand */
      , (5000694,  53,        101) /* PlacementPosition - Resting */
      , (5000694,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -19,17 +19,17 @@ VALUES (5000694,   1,      32768) /* ItemType - Caster */
      , (5000694, 106,        350) /* ItemSpellcraft */
      , (5000694, 107,       6000) /* ItemCurMana */
      , (5000694, 108,       6000) /* ItemMaxMana */
-     , (5000694, 109,         325) /* ItemDifficulty */
+     , (5000694, 109,        325) /* ItemDifficulty */
      , (5000694, 110,          0) /* ItemAllegianceRankLimit */
      , (5000694, 117,         30) /* ItemManaCost */
      , (5000694, 151,          2) /* HookType - Wall */
      , (5000694, 169,  118162702) /* TsysMutationData */
-     , (5000694, 179,        4) /* ImbuedEffect - FireRending */
+     , (5000694, 179,          4) /* ImbuedEffect - FireRending */
      , (5000694, 353,          0) /* WeaponType - Undef */
-     , (5000694, 158,         7) /* level to wield */
-     , (5000694, 159,         1) /* Level to wield */ 
-     , (5000694, 160,         230) /* level to wield */ 
-     , (5000694, 114,         1) /* Attuned */
+     , (5000694, 158,          7) /* level to wield */
+     , (5000694, 159,          1) /* Level to wield */ 
+     , (5000694, 160,        230) /* level to wield */ 
+     , (5000694, 114,          1) /* Attuned */
      , (5000694,  33,          1) /* Bonded - Bonded */;
 
 
@@ -50,7 +50,7 @@ VALUES (5000694,   5, -0.0333333015441895) /* ManaRate */
      , (5000694, 152, 1.2);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5000694,   1, 'Armor Rending Nether Staff') /* Name */;
+VALUES (5000694,   1, 'Armor Rending Nether Staff MK II') /* Name */;
     
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
