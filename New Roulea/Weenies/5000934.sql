@@ -31,7 +31,7 @@ VALUES (5000934,   1,        256) /* ItemType - MissileWeapon */
      , (5000934, 160,        375) /* WieldDifficulty */
      , (5000934, 169,  101187850) /* TsysMutationData */
      , (5000934, 179,        128) /* ImbuedEffect - FireRending */
-     , (5000934, 204,         22) /* ElementalDamageBonus */
+     , (5000934, 204,         20) /* ElementalDamageBonus */
      , (5000934, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
