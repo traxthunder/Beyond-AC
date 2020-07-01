@@ -84,13 +84,13 @@ VALUES (5000333,   1,   33560298) /* Setup */
      , (5000333,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (5000333,   1, 650, 0, 0) /* Strength */
-     , (5000333,   2, 650, 0, 0) /* Endurance */
-     , (5000333,   3, 650, 0, 0) /* Quickness */
-     , (5000333,   4, 650, 0, 0) /* Coordination */
-     , (5000333,   5, 650, 0, 0) /* Focus */
-     , (5000333,   6, 650, 0, 0) /* Self */;
-
+VALUES (5000333,   1, 350, 0, 0) /* Strength */
+     , (5000333,   2, 350, 0, 0) /* Endurance */
+     , (5000333,   3, 350, 0, 0) /* Quickness */
+     , (5000333,   4, 350, 0, 0) /* Coordination */
+     , (5000333,   5, 350, 0, 0) /* Focus */
+     , (5000333,   6, 350, 0, 0) /* Self */;
+     
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (5000333,   1, 75000, 0, 0, 75000) /* MaxHealth */
      , (5000333,   3, 50000, 0, 0, 50000) /* MaxStamina */
@@ -98,9 +98,9 @@ VALUES (5000333,   1, 75000, 0, 0, 75000) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (5000333,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
-     , (5000333,  7, 0, 3, 0, 475, 0, 0) /* MissileDefense      Specialized */
-     , (5000333, 15, 0, 3, 0, 275, 0, 0) /* MagicDefense        Specialized */
-     , (5000333, 44, 0, 3, 0, 400, 0, 1198.474609375) /* HeavyWeapons        Specialized */
+     , (5000333,  7, 0, 3, 0, 400, 0, 0) /* MissileDefense      Specialized */
+     , (5000333, 15, 0, 3, 0, 355, 0, 0) /* MagicDefense        Specialized */
+     , (5000333, 44, 0, 3, 0, 350, 0, 1198.474609375) /* HeavyWeapons        Specialized */
      , (5000333, 48, 0, 3, 0, 300, 0, 1198.474609375) /* Shield              Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)

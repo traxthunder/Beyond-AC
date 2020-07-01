@@ -110,7 +110,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (5000338,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (5000338,  7, 0, 3, 0, 475, 0, 0) /* MissileDefense      Specialized */
      , (5000338, 14, 0, 3, 0, 475, 0, 1198.474609375) /* ArcaneLore          Specialized */
-     , (5000338, 15, 0, 3, 0, 275, 0, 0) /* MagicDefense        Specialized */
+     , (5000338, 15, 0, 3, 0, 355, 0, 0) /* MagicDefense        Specialized */
      , (5000338, 16, 0, 3, 0, 200, 0, 1198.474609375) /* ManaConversion      Specialized */
      , (5000338, 18, 0, 3, 0, 200, 0, 1198.474609375) /* ItemTinkering       Specialized */
      , (5000338, 19, 0, 3, 0, 200, 0, 1198.474609375) /* AssessPerson        Specialized */
@@ -123,21 +123,21 @@ VALUES (5000338,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (5000338, 28, 0, 3, 0, 200, 0, 1198.474609375) /* WeaponTinkering     Specialized */
      , (5000338, 29, 0, 3, 0,  20, 0, 1198.474609375) /* ArmorTinkering      Specialized */
      , (5000338, 30, 0, 3, 0, 200, 0, 1198.474609375) /* MagicItemTinkering  Specialized */
-     , (5000338, 31, 0, 3, 0, 350, 0, 1198.474609375) /* CreatureEnchantment Specialized */
-     , (5000338, 32, 0, 3, 0, 350, 0, 1198.474609375) /* ItemEnchantment     Specialized */
-     , (5000338, 33, 0, 3, 0, 400, 0, 1198.474609375) /* LifeMagic           Specialized */
-     , (5000338, 34, 0, 3, 0, 400, 0, 1198.474609375) /* WarMagic            Specialized */
+     , (5000338, 31, 0, 3, 0, 260, 0, 1198.474609375) /* CreatureEnchantment Specialized */
+     , (5000338, 32, 0, 3, 0, 260, 0, 1198.474609375) /* ItemEnchantment     Specialized */
+     , (5000338, 33, 0, 3, 0, 260, 0, 1198.474609375) /* LifeMagic           Specialized */
+     , (5000338, 34, 0, 3, 0, 260, 0, 1198.474609375) /* WarMagic            Specialized */
      , (5000338, 36, 0, 3, 0, 900, 0, 1198.474609375) /* Loyalty             Specialized */
      , (5000338, 37, 0, 3, 0, 400, 0, 1198.474609375) /* Fletching           Specialized */
      , (5000338, 38, 0, 3, 0, 400, 0, 1198.474609375) /* Alchemy             Specialized */
      , (5000338, 39, 0, 3, 0, 900, 0, 1198.474609375) /* Cooking             Specialized */
-     , (5000338, 41, 0, 3, 0, 400, 0, 0) /* TwoHandedCombat     Specialized */
-     , (5000338, 43, 0, 3, 0, 400, 0, 0) /* VoidMagic           Specialized */
-     , (5000338, 44, 0, 3, 0, 400, 0, 0) /* HeavyWeapons        Specialized */
-     , (5000338, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */
-     , (5000338, 46, 0, 3, 0, 400, 0, 0) /* FinesseWeapons      Specialized */
-     , (5000338, 47, 0, 3, 0, 400, 0, 0) /* MissileWeapons      Specialized */
-     , (5000338, 49, 0, 3, 0, 400, 0, 0) /* DualWield           Specialized */;
+     , (5000338, 41, 0, 3, 0, 350, 0, 0) /* TwoHandedCombat     Specialized */
+     , (5000338, 43, 0, 3, 0, 350, 0, 0) /* VoidMagic           Specialized */
+     , (5000338, 44, 0, 3, 0, 350, 0, 0) /* HeavyWeapons        Specialized */
+     , (5000338, 45, 0, 3, 0, 350, 0, 0) /* LightWeapons        Specialized */
+     , (5000338, 46, 0, 3, 0, 350, 0, 0) /* FinesseWeapons      Specialized */
+     , (5000338, 47, 0, 3, 0, 350, 0, 0) /* MissileWeapons      Specialized */
+     , (5000338, 49, 0, 3, 0, 350, 0, 0) /* DualWield           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5000338,  0,  4,  0,    0, 9000, 1800, 1800, 1800, 1800, 1800, 1800, 1800,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
