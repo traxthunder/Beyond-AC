@@ -102,9 +102,9 @@ VALUES (5000338,   1, 650, 0, 0) /* Strength */
      , (5000338,   6, 650, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5000338,   1, 25000, 0, 0, 25000) /* MaxHealth */
-     , (5000338,   3, 50000, 0, 0, 50000) /* MaxStamina */
-     , (5000338,   5, 125000, 0, 0, 125000) /* MaxMana */;
+VALUES (5000338,   1, 2500, 0, 0, 2500) /* MaxHealth */
+     , (5000338,   3, 5000, 0, 0, 5000) /* MaxStamina */
+     , (5000338,   5, 12500, 0, 0, 12500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (5000338,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
@@ -151,16 +151,15 @@ VALUES (5000338,  0,  4,  0,    0, 9000, 1800, 1800, 1800, 1800, 1800, 1800, 180
      , (5000338,  8,  8, 500, 0.15, 9000, 1800, 1800, 1800, 1800, 1800, 1800, 1800,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5000338,  1658,    1.5)  /* Stamina to Health Other I */
-     , (5000338,  2371,   2.18)  /* Curse of Mortal Flesh */
-     , (5000338,  2674,    2.2)  /* Vicious Rebuke */
-     , (5000338,  2697,    1.8)  /* Aerfalle's Touch */
-     , (5000338,  2698,    1.8)  /* Aerfalle's Embrace */
-     , (5000338,  3081,   2.18)  /* Flesh of Cloth */
-     , (5000338,  3108,   2.21)  /* Flay Soul */
-     , (5000338,  3883,   2.19)  /* Pyroclastic Explosion */
-     , (5000338,  3970,    2.2)  /* Blade Bomb */
-     , (5000338,  4312,   2.19)  /* Incantation of Imperil Other */
+VALUES (5000338,  2074,    2.1)  /* Gossamer Flesh */
+     , (5000338,  2122,    2.1)  /* Disintegration */
+     , (5000338,  2132,    2.1)  /* The Spike */
+     , (5000338,  2136,    2.1)  /* Icy Torment */
+     , (5000338,  2144,    2.1)  /* Crushing Shame */
+     , (5000338,  2162,    2.1)  /* Olthoi's Gift */
+     , (5000338,  2166,    2.1)  /* Tusker's Gift */
+     , (5000338,  2168,    2.1)  /* Gelidite's Gift */
+     , (5000338,  2174,    2.1)  /* Archer's Gift */
      , (5000338,  4331,    1.6)  /* Incantation of Nullify All Magic Self */
      , (5000338,  4334,    1.6)  /* Incantation of Nullify All Magic Other */
      , (5000338,  5166,   2.21)  /* Flaming Skull */;
