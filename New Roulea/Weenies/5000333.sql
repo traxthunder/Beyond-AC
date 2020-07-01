@@ -92,9 +92,9 @@ VALUES (5000333,   1, 350, 0, 0) /* Strength */
      , (5000333,   6, 350, 0, 0) /* Self */;
      
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5000333,   1, 75000, 0, 0, 75000) /* MaxHealth */
-     , (5000333,   3, 50000, 0, 0, 50000) /* MaxStamina */
-     , (5000333,   5, 125000, 0, 0, 125000) /* MaxMana */;
+VALUES (5000333,   1, 7500, 0, 0, 7500) /* MaxHealth */
+     , (5000333,   3, 5000, 0, 0, 5000) /* MaxStamina */
+     , (5000333,   5, 12500, 0, 0, 12500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (5000333,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
@@ -115,13 +115,15 @@ VALUES (5000333,  0,  4,  0,    0, 1000, 1800, 1800, 1800, 1800, 1800, 1800, 180
      , (5000333,  8,  8, 500, 0.15, 1000, 1800, 1800, 1800, 1800, 1800, 1800, 1800,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5000333,  1658,    1.5)  /* Stamina to Health Other I */
-     , (5000333,  2371,   2.19)  /* Curse of Mortal Flesh */
-     , (5000333,  2697,    1.8)  /* Aerfalle's Touch */
-     , (5000333,  2698,    1.8)  /* Aerfalle's Embrace */
-     , (5000333,  3053,    1.8)  /* Paralyzing Touch */
-     , (5000333,  3461,   2.19)  /* Batter Flesh */
-     , (5000333,  4312,   2.19)  /* Incantation of Imperil Other */
+VALUES (5000333,  2074,    2.1)  /* Gossamer Flesh */
+     , (5000333,  2122,    2.1)  /* Disintegration */
+     , (5000333,  2132,    2.1)  /* The Spike */
+     , (5000333,  2136,    2.1)  /* Icy Torment */
+     , (5000333,  2144,    2.1)  /* Crushing Shame */
+     , (5000333,  2162,    2.1)  /* Olthoi's Gift */
+     , (5000333,  2166,    2.1)  /* Tusker's Gift */
+     , (5000333,  2168,    2.1)  /* Gelidite's Gift */
+     , (5000333,  2174,    2.1)  /* Archer's Gift */
      , (5000333,  4331,    1.6)  /* Incantation of Nullify All Magic Self */
      , (5000333,  4334,    1.6)  /* Incantation of Nullify All Magic Other */
      , (5000333,  5582,    1.6)  /* Nullify All Rares */;
