@@ -94,12 +94,12 @@ VALUES (5000335,   1,   33561248) /* Setup */
      , (5000335,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (5000335,   1, 650, 0, 0) /* Strength */
-     , (5000335,   2, 650, 0, 0) /* Endurance */
-     , (5000335,   3, 650, 0, 0) /* Quickness */
-     , (5000335,   4, 650, 0, 0) /* Coordination */
-     , (5000335,   5, 650, 0, 0) /* Focus */
-     , (5000335,   6, 650, 0, 0) /* Self */;
+VALUES (5000335,   1, 350, 0, 0) /* Strength */
+     , (5000335,   2, 350, 0, 0) /* Endurance */
+     , (5000335,   3, 350, 0, 0) /* Quickness */
+     , (5000335,   4, 350, 0, 0) /* Coordination */
+     , (5000335,   5, 350, 0, 0) /* Focus */
+     , (5000335,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (5000335,   1, 50000, 0, 0, 50000) /* MaxHealth */
@@ -110,7 +110,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (5000335,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (5000335,  7, 0, 3, 0, 475, 0, 0) /* MissileDefense      Specialized */
      , (5000335, 14, 0, 3, 0, 475, 0, 1198.474609375) /* ArcaneLore          Specialized */
-     , (5000335, 15, 0, 3, 0, 275, 0, 0) /* MagicDefense        Specialized */
+     , (5000335, 15, 0, 3, 0, 355, 0, 0) /* MagicDefense        Specialized */
      , (5000335, 16, 0, 3, 0, 200, 0, 1198.474609375) /* ManaConversion      Specialized */
      , (5000335, 18, 0, 3, 0, 200, 0, 1198.474609375) /* ItemTinkering       Specialized */
      , (5000335, 19, 0, 3, 0, 200, 0, 1198.474609375) /* AssessPerson        Specialized */
@@ -123,21 +123,21 @@ VALUES (5000335,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (5000335, 28, 0, 3, 0, 200, 0, 1198.474609375) /* WeaponTinkering     Specialized */
      , (5000335, 29, 0, 3, 0,  20, 0, 1198.474609375) /* ArmorTinkering      Specialized */
      , (5000335, 30, 0, 3, 0, 200, 0, 1198.474609375) /* MagicItemTinkering  Specialized */
-     , (5000335, 31, 0, 3, 0, 350, 0, 1198.474609375) /* CreatureEnchantment Specialized */
-     , (5000335, 32, 0, 3, 0, 350, 0, 1198.474609375) /* ItemEnchantment     Specialized */
-     , (5000335, 33, 0, 3, 0, 400, 0, 1198.474609375) /* LifeMagic           Specialized */
-     , (5000335, 34, 0, 3, 0, 400, 0, 1198.474609375) /* WarMagic            Specialized */
+     , (5000335, 31, 0, 3, 0, 260, 0, 1198.474609375) /* CreatureEnchantment Specialized */
+     , (5000335, 32, 0, 3, 0, 260, 0, 1198.474609375) /* ItemEnchantment     Specialized */
+     , (5000335, 33, 0, 3, 0, 260, 0, 1198.474609375) /* LifeMagic           Specialized */
+     , (5000335, 34, 0, 3, 0, 260, 0, 1198.474609375) /* WarMagic            Specialized */
      , (5000335, 36, 0, 3, 0, 400, 0, 1198.474609375) /* Loyalty             Specialized */
      , (5000335, 37, 0, 3, 0, 400, 0, 1198.474609375) /* Fletching           Specialized */
      , (5000335, 38, 0, 3, 0, 400, 0, 1198.474609375) /* Alchemy             Specialized */
      , (5000335, 39, 0, 3, 0, 400, 0, 1198.474609375) /* Cooking             Specialized */
-     , (5000335, 41, 0, 3, 0, 400, 0, 0) /* TwoHandedCombat     Specialized */
-     , (5000335, 43, 0, 3, 0, 400, 0, 0) /* VoidMagic           Specialized */
-     , (5000335, 44, 0, 3, 0, 400, 0, 0) /* HeavyWeapons        Specialized */
-     , (5000335, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */
-     , (5000335, 46, 0, 3, 0, 400, 0, 0) /* FinesseWeapons      Specialized */
-     , (5000335, 47, 0, 3, 0, 400, 0, 0) /* MissileWeapons      Specialized */
-     , (5000335, 49, 0, 3, 0, 400, 0, 0) /* DualWield           Specialized */;
+     , (5000335, 41, 0, 3, 0, 350, 0, 0) /* TwoHandedCombat     Specialized */
+     , (5000335, 43, 0, 3, 0, 260, 0, 0) /* VoidMagic           Specialized */
+     , (5000335, 44, 0, 3, 0, 350, 0, 0) /* HeavyWeapons        Specialized */
+     , (5000335, 45, 0, 3, 0, 350, 0, 0) /* LightWeapons        Specialized */
+     , (5000335, 46, 0, 3, 0, 350, 0, 0) /* FinesseWeapons      Specialized */
+     , (5000335, 47, 0, 3, 0, 350, 0, 0) /* MissileWeapons      Specialized */
+     , (5000335, 49, 0, 3, 0, 350, 0, 0) /* DualWield           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5000335,  0,  4,  0,    0, 9000, 1800, 1800, 1800, 1800, 1800, 1800, 1800,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
