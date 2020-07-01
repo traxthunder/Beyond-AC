@@ -21,7 +21,7 @@ VALUES (5002695,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5002695,  39,     0.5) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5002695,   1, 'Ziakhal Event Boss Coin') /* Name */
+VALUES (5002695,   1, 'Zaikhal Event Boss Coin') /* Name */
      , (5002695,  16, 'An elegant coin, Emblazoned with an Image of Dereth. ') /* ShortDesc */
      , (5002695,  33, 'Boss9') /* Quest */;
 
