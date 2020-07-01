@@ -60,7 +60,7 @@ VALUES (5000876,   1,       5) /* HeartbeatInterval */
      , (5000876, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5000876,   1, 'lvl 50 Defense of Ziakhal Warden') /* Name */
+VALUES (5000876,   1, 'lvl 50 Defense of Zaikhal Warden') /* Name */
      , (5000876,   3, 'Female') /* Sex */
      , (5000876,   4, 'Aluvian') /* HeritageGroup */
      , (5000876,   5, 'Herald') /* Template */;
