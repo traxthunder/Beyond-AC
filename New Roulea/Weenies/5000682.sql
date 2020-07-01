@@ -50,7 +50,7 @@ VALUES (5000682,   5, -0.0333333015441895) /* ManaRate */
      , (5000682, 152, 1.18);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5000682,   1, 'Magic Staff') /* Name */;
+VALUES (5000682,   1, 'Piercing Staff') /* Name */;
     
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -68,6 +68,5 @@ VALUES (5000682,   1,   33555022) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5000682,   4602,      2)  /* Leaden Feet Self II */
      , (5000682,  4530,      2)  /* Incantation of Bludgeoning Protection Self */
-     , (5000682,  4282,      2)  /* Incantation of Fire Protection Self */
      , (5000682, 4564,      2)  /* Incantation of Mana Renewal Self */
      , (5000682,  4705,      2)  /* Epic Mana Conversion Prowess */;

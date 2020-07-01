@@ -10,10 +10,9 @@ VALUES (5000944,   1,        256) /* ItemType - MissileWeapon */
      , (5000944,   8,         15) /* Mass */
      , (5000944,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (5000944,  16,          1) /* ItemUseable - No */
-     , (5000944,  19,     10) /* Value */
+     , (5000944,  19,         10) /* Value */
      , (5000944,  33,          1) /* Bonded - Bonded */
-     , (5000944,  44,          22) /* Damage */
-     , (5000944,  45,          2) /* DamageType - Slash */
+     , (5000944,  44,         22) /* Damage */
      , (5000944,  46,       1024) /* DefaultCombatStyle - Atlatl */
      , (5000944,  48,         47) /* WeaponSkill - MissileWeapons */
      , (5000944,  49,         15) /* WeaponTime */

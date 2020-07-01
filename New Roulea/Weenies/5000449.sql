@@ -14,7 +14,7 @@ VALUES (5000449,   1,          2) /* ItemType - Armor */
      , (5000449,  19,         5) /* Value */
      , (5000449,  27,          2) /* ArmorType - Leather */
      , (5000449,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5000449,  28,        600) /*== ArmorLevel */
+     , (5000449,  28,        450) /*== ArmorLevel */
      , (5000449,  33,          1) /*== Bonded - Bonded */
      , (5000449, 114,          1) /*== Attuned - Attuned */
      , (5000449, 158,          7) /*== WieldRequirements - Base Skill */

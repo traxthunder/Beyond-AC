@@ -10,8 +10,8 @@ VALUES (5000684,   1,      32768) /* ItemType - Caster */
      , (5000684,   8,         90) /* Mass */
      , (5000684,   9,   16777216) /* ValidLocations - Held */
      , (5000684,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
-     , (5000684,  19,      5) /* Value */
-     , (5000684,  45,          2) /* DamageType - Pierce */
+     , (5000684,  19,          5) /* Value */
+     , (5000684,  45,       1024) /* DamageType - Nether */
      , (5000684,  52,          1) /* ParentLocation - RightHand */
      , (5000684,  53,        101) /* PlacementPosition - Resting */
      , (5000684,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -19,17 +19,17 @@ VALUES (5000684,   1,      32768) /* ItemType - Caster */
      , (5000684, 106,        350) /* ItemSpellcraft */
      , (5000684, 107,       6000) /* ItemCurMana */
      , (5000684, 108,       6000) /* ItemMaxMana */
-     , (5000684, 109,         325) /* ItemDifficulty */
+     , (5000684, 109,        325) /* ItemDifficulty */
      , (5000684, 110,          0) /* ItemAllegianceRankLimit */
      , (5000684, 117,         30) /* ItemManaCost */
      , (5000684, 151,          2) /* HookType - Wall */
      , (5000684, 169,  118162702) /* TsysMutationData */
-     , (5000684, 179,        4) /* ImbuedEffect - FireRending */
+     , (5000684, 179,          4) /* ImbuedEffect - FireRending */
      , (5000684, 353,          0) /* WeaponType - Undef */
-          , (5000684, 158,         7) /* level to wield */
-     , (5000684, 159,         1) /* Level to wield */ 
-     , (5000684, 160,         200) /* level to wield */ 
-               , (5000684, 114,         1) /* Attuned */
+     , (5000684, 158,          7) /* level to wield */
+     , (5000684, 159,          1) /* Level to wield */ 
+     , (5000684, 160,        200) /* level to wield */ 
+     , (5000684, 114,          1) /* Attuned */
      , (5000684,  33,          1) /* Bonded - Bonded */;
 
 
@@ -50,7 +50,7 @@ VALUES (5000684,   5, -0.0333333015441895) /* ManaRate */
      , (5000684, 152, 1.18);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5000684,   1, 'Magic Staff') /* Name */;
+VALUES (5000684,   1, 'Armor Rending Nether Staff') /* Name */;
     
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -68,6 +68,5 @@ VALUES (5000684,   1,   33555022) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5000684,   4602,      2)  /* Leaden Feet Self II */
      , (5000684,  4530,      2)  /* Incantation of Bludgeoning Protection Self */
-     , (5000684,  4282,      2)  /* Incantation of Fire Protection Self */
      , (5000684, 4564,      2)  /* Incantation of Mana Renewal Self */
      , (5000684,  4705,      2)  /* Epic Mana Conversion Prowess */;

@@ -481,7 +481,7 @@ VALUES (0x7C6A950B, 5000875, 0xC6A90191, 117.621, 26.7759, 42.005, -0.956238, 0,
 /* @teleloc 0xC6A90191 [117.621002 26.775900 42.005001] -0.956238 0.000000 0.000000 -0.292591 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A950C, 5000876, 0xC6A90191, 117.524, 31.0022, 42.005, -0.698902, 0, 0, -0.715217, False, '2020-06-21 20:49:35'); /* lvl 50 Defense of Ziakhal Warden */
+VALUES (0x7C6A950C, 5000876, 0xC6A90191, 117.524, 31.0022, 42.005, -0.698902, 0, 0, -0.715217, False, '2020-06-21 20:49:35'); /* lvl 50 Defense of Zaikhal Warden */
 /* @teleloc 0xC6A90191 [117.524002 31.002199 42.005001] -0.698902 0.000000 0.000000 -0.715217 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
