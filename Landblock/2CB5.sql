@@ -111,5 +111,9 @@ VALUES (0x72CB501F, 5000861, 0x2CB5000B, 47.7512, 54.7129, 0.055, 0.593469, 0, 0
 /* @teleloc 0x2CB5000B [47.751202 54.712898 0.055000] 0.593469 0.000000 0.000000 0.804857 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72CB5020, 5000861, 0x2CB50001, 23.599373, 23.005966, 0.054999996, 0.46525785, 0, 0, 0.8851752, False, '2020-06-25 20:10:58'); /* GSpireAttack */
-/* @teleloc 0x2CB50001 [23.599373 23.005966 0.055000] 0.465258 0.000000 0.000000 0.885175 */
+VALUES (0x72CB5020, 5000861, 0x2CB50001, 23.5994, 23.006, 0.055, 0.465258, 0, 0, 0.885175, False, '2020-06-25 20:10:58'); /* GSpireAttack */
+/* @teleloc 0x2CB50001 [23.599400 23.006001 0.055000] 0.465258 0.000000 0.000000 0.885175 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72CB5021, 5000860, 0x2CB50005, 18.299469, 117.124, 0.054999996, 0.36725822, 0, 0, 0.93011904, False, '2020-07-03 00:15:02'); /* GspireAttack */
+/* @teleloc 0x2CB50005 [18.299469 117.124001 0.055000] 0.367258 0.000000 0.000000 0.930119 */
