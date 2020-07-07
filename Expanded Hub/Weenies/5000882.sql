@@ -150,7 +150,7 @@ VALUES (@parent_id, 0, 5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NULL,
      , (@parent_id, 8, 10 /* Tell */, 1, 1, NULL, 'Give me a Gold scarab to begin.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (5000882, 6 /* Give */, 1, 30645 /* Aviator's Cap */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (5000882, 6 /* Give */, 1, 687 /* Aviator's Cap */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

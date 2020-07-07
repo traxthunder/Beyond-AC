@@ -338,5 +338,9 @@ VALUES (0x7B47051A,   385, 0xB470001E, 93.2752, 132.383, 44.9592, 0.471139, 0, 0
 /* @teleloc 0xB470001E [93.275200 132.382996 44.959202] 0.471139 0.000000 0.000000 -0.882059 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B47051B, 33970, 0xB4700013, 62.101265, 69.41488, 42.005, 0.8703811, 0, 0, -0.49237868, False, '2020-06-27 21:00:53'); /* Dwennon */
-/* @teleloc 0xB4700013 [62.101265 69.414879 42.005001] 0.870381 0.000000 0.000000 -0.492379 */
+VALUES (0x7B47051B, 33970, 0xB4700013, 62.1013, 69.4149, 42.005, 0.870381, 0, 0, -0.492379, False, '2020-06-27 21:00:53'); /* Dwennon */
+/* @teleloc 0xB4700013 [62.101299 69.414902 42.005001] 0.870381 0.000000 0.000000 -0.492379 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B47051C, 5000955, 0xB4700021, 115.54493, 21.885132, 59.923, -0.8662772, 0, 0, -0.49956354, False, '2020-07-06 18:30:43');
+/* @teleloc 0xB4700021 [115.544930 21.885132 59.923000] -0.866277 0.000000 0.000000 -0.499564 */

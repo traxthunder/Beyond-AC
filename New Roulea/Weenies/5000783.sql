@@ -63,7 +63,7 @@ VALUES (5000783,   1,       5) /* HeartbeatInterval */
      , (5000783,  73,       1) /* ResistStaminaBoost */
      , (5000783,  74,       1) /* ResistManaDrain */
      , (5000783,  75,       1) /* ResistManaBoost */
-     , (5000783,  76, 0.949999988079071) /* Translucency */
+     , (5000783,  76, 0.88999988079071) /* Translucency */
      , (5000783,  77,       1) /* PhysicsScriptIntensity */
      , (5000783,  80,       2) /* AiUseMagicDelay */
      , (5000783, 104,      10) /* ObviousRadarRange */
@@ -96,26 +96,26 @@ VALUES (5000783,   1, 320, 0, 0) /* Strength */
      , (5000783,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5000783,   1, 50000, 0, 0, 2130) /* MaxHealth */
+VALUES (5000783,   1, 30000, 0, 0, 2130) /* MaxHealth */
      , (5000783,   3, 20000, 0, 0, 2400) /* MaxStamina */
      , (5000783,   5, 20000, 0, 0, 2300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (5000783,  6, 0, 3, 0, 287, 0, 0) /* MeleeDefense        Specialized */
+VALUES (5000783,  6, 0, 3, 0, 387, 0, 0) /* MeleeDefense        Specialized */
      , (5000783,  7, 0, 3, 0, 420, 0, 0) /* MissileDefense      Specialized */
-     , (5000783, 15, 0, 3, 0, 285, 0, 0) /* MagicDefense        Specialized */
-     , (5000783, 31, 0, 3, 0, 205, 0, 0) /* CreatureEnchantment Specialized */
-     , (5000783, 32, 0, 3, 0, 205, 0, 0) /* ItemEnchantment     Specialized */
-     , (5000783, 33, 0, 3, 0, 205, 0, 0) /* LifeMagic           Specialized */
-     , (5000783, 34, 0, 3, 0, 500, 0, 0) /* WarMagic            Specialized */
-     , (5000783, 45, 0, 3, 0, 750, 0, 0) /* LightWeapons        Specialized */;
+     , (5000783, 15, 0, 3, 0, 385, 0, 0) /* MagicDefense        Specialized */
+     , (5000783, 31, 0, 3, 0, 405, 0, 0) /* CreatureEnchantment Specialized */
+     , (5000783, 32, 0, 3, 0, 405, 0, 0) /* ItemEnchantment     Specialized */
+     , (5000783, 33, 0, 3, 0, 405, 0, 0) /* LifeMagic           Specialized */
+     , (5000783, 34, 0, 3, 0, 400, 0, 0) /* WarMagic            Specialized */
+     , (5000783, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (5000783,  0, 32, 2000,  0.5, 2650,  682,  650,  618,  618,  780,  780,  618,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
-     , (5000783, 10, 32, 2100,  0.5, 2650,  682,  650,  618,  618,  780,  780,  618,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
-     , (5000783, 13, 32, 2200,  0.5, 2650,  682,  650,  618,  618,  780,  780,  618,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
-     , (5000783, 16,  4,  0,    0, 2650,  682,  650,  618,  618,  780,  780,  618,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */
-     , (5000783, 22,  8, 75,  0.5, 2000,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
+VALUES (5000783,  0, 32, 800,  0.5, 1650,  682,  650,  618,  618,  780,  780,  618,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
+     , (5000783, 10, 32, 800,  0.5, 1650,  682,  650,  618,  618,  780,  780,  618,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
+     , (5000783, 13, 32, 800,  0.5, 1650,  682,  650,  618,  618,  780,  780,  618,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
+     , (5000783, 16,  4,  0,    0, 1650,  682,  650,  618,  618,  780,  780,  618,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */
+     , (5000783, 22,  8, 75,  0.5, 1000,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5000783,  2056,      2)  /* Ataxia */

@@ -84,7 +84,7 @@ VALUES (5000339,   1,   33560230) /* Setup */
                                    Wield Stone Mace (26043) | Shade: 0 | Probability: 20%
                                    Wield Stone Spear (26048) | Shade: 0 | Probability: 20%
                                    Wield Bone Sword (26052) | Shade: 0 | Probability: 20% */
-     , (5000339,  35,       2000) /* DeathTreasureType - Loot Tier: 5 */;
+     , (5000339,  35,       2111) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5000339,   1, 350, 0, 0) /* Strength */
@@ -100,7 +100,7 @@ VALUES (5000339,   1, 2500, 0, 0, 2500) /* MaxHealth */
      , (5000339,   5, 12500, 0, 0, 12500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (5000339,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
+VALUES (5000339,  6, 0, 3, 0, 480, 0, 0) /* MeleeDefense        Specialized */
      , (5000339,  7, 0, 3, 0, 450, 0, 0) /* MissileDefense      Specialized */
      , (5000339, 15, 0, 3, 0, 325, 0, 0) /* MagicDefense        Specialized */
      , (5000339, 31, 0, 3, 0, 350, 0, 1198.474609375) /* CreatureEnchantment Specialized */
@@ -130,9 +130,7 @@ VALUES (5000339,  2074,    2.1)  /* Gossamer Flesh */
      , (5000339,  2162,    2.1)  /* Olthoi's Gift */
      , (5000339,  2166,    2.1)  /* Tusker's Gift */
      , (5000339,  2168,    2.1)  /* Gelidite's Gift */
-     , (5000339,  2174,    2.1)  /* Archer's Gift */
-     , (5000339,  4331,    1.6)  /* Incantation of Nullify All Magic Self */
-     , (5000339,  4334,    1.6)  /* Incantation of Nullify All Magic Other */;
+     , (5000339,  2174,    2.1)  /* Archer's Gift */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5000339, 2, 29544,  1, 93, 0, True) /* Create Marksman's Robe (29544) for Wield */

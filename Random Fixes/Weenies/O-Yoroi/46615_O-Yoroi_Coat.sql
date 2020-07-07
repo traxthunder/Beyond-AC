@@ -9,7 +9,7 @@ VALUES (46615,   1,          2) /* ItemType - Armor */
      , (46615,   5,       1665) /* EncumbranceVal */
      , (46615,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (46615,  16,          1) /* ItemUseable - No */
-     , (46615,  19,       1738) /* Value */
+     , (46615,  19,       20) /* Value */
      , (46615,  28,        440) /* ArmorLevel */
      , (46615,  33,          1) /* Bonded - Bonded */
      , (46615,  53,        101) /* PlacementPosition - Resting */

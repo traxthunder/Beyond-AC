@@ -509,5 +509,13 @@ VALUES (0x7C6A9512, 5000882, 0xC6A90193, 107.342, 26.0804, 46.805, 0.999971, 0, 
 /* @teleloc 0xC6A90193 [107.342003 26.080400 46.805000] 0.999971 0.000000 0.000000 0.007659 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A9513, 5000883, 0xC6A90193, 102.24358, 26.094826, 46.805, 0.9860312, 0, 0, -0.16656086, False, '2020-06-21 20:50:49'); /* lvl 80 Simulacra Warden */
-/* @teleloc 0xC6A90193 [102.243584 26.094826 46.805000] 0.986031 0.000000 0.000000 -0.166561 */
+VALUES (0x7C6A9513, 5000883, 0xC6A90193, 102.244, 26.0948, 46.805, 0.986031, 0, 0, -0.166561, False, '2020-06-21 20:50:49'); /* lvl 80 Simulacra Warden */
+/* @teleloc 0xC6A90193 [102.244003 26.094801 46.805000] 0.986031 0.000000 0.000000 -0.166561 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A9514, 5000951, 0xC6A90145, 38.646, 43.7209, 42.005, 0.143984, 0, 0, 0.98958, False, '2020-07-06 13:43:57'); /* Mr Derby */
+/* @teleloc 0xC6A90145 [38.646000 43.720901 42.005001] 0.143984 0.000000 0.000000 0.989580 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A9515, 5000950, 0xC6A90145, 34.528244, 42.908997, 42.005, -0.25367993, 0, 0, 0.9672882, False, '2020-07-06 13:44:09'); /* Mr White Blade */
+/* @teleloc 0xC6A90145 [34.528244 42.908997 42.005001] -0.253680 0.000000 0.000000 0.967288 */

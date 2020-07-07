@@ -15,7 +15,7 @@ VALUES (5000537,   1,          2) /* ItemType - Armor */
      , (5000537,  19,       10) /* Value */
      , (5000537,  27,         32) /* ArmorType - Metal */
      , (5000537,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5000537,  28,        500) /*== ArmorLevel */ */
+     , (5000537,  28,        500) /*== ArmorLevel */
      , (5000537,  33,          1) /*== Bonded - Bonded */
      , (5000537, 114,          1) /*== Attuned - Attuned */
      , (5000537, 158,          7) /*== WieldRequirements - Base Skill */
