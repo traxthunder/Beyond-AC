@@ -351,7 +351,9 @@ VALUES (99151, 2,  32187,  0, 0, 0, False) /* Create Festival Robe for Wield */
 	 , (99151, 4, 25843, -1, 0, 0, False) /* rare backpack  for Shop */
 	 , (99151, 4, 5000919, -1, 0, 0, False) /* rare backpack  for Shop */
 	 , (99151, 4, 5000920, -1, 0, 0, False) /* rare backpack  for Shop */
-	 , (99151, 4, 5000497, -1, 0, 0, False) /* rare backpack  for Shop */;
+	 , (99151, 4, 5000497, -1, 0, 0, False) /* rare backpack  for Shop */
+	 , (99151, 4, 5002609, -1, 0, 0, False) /* rare backpack  for Shop */
+	 , (99151, 4, 22100, -1, 0, 0, False) /* rare backpack  for Shop */;
      
      DELETE FROM `weenie` WHERE `class_Id` = 99155;
 

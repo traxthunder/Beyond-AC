@@ -81,7 +81,7 @@ VALUES (5000317,   1,   33558554) /* Setup */
      , (5000317,  19,         85) /* ActivationAnimation */
      , (5000317,  22,  872415401) /* PhysicsEffectTable */
      , (5000317,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (5000317,  35,       2000) /* DeathTreasureType - Loot Tier: 7 */;
+     , (5000317,  35,       2111) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5000317,   1, 1300, 0, 0) /* Strength */

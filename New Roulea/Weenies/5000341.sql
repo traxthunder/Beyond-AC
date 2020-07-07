@@ -46,11 +46,11 @@ VALUES (5000341,   1,       5) /* HeartbeatInterval */
      , (5000341,  34,     2.5) /* PowerupTime */
      , (5000341,  36,       1) /* ChargeSpeed */
      , (5000341,  39,     1.5) /* DefaultScale */
-     , (5000341,  64,     0.5) /* ResistSlash */
-     , (5000341,  65,     0.7) /* ResistPierce */
+     , (5000341,  64,     0.6) /* ResistSlash */
+     , (5000341,  65,     0.3) /* ResistPierce */
      , (5000341,  66,     0.3) /* ResistBludgeon */
-     , (5000341,  67,     0.8) /* ResistFire */
-     , (5000341,  68,     0.3) /* ResistCold */
+     , (5000341,  67,     0.3) /* ResistFire */
+     , (5000341,  68,     0.8) /* ResistCold */
      , (5000341,  69,     0.3) /* ResistAcid */
      , (5000341,  70,     0.4) /* ResistElectric */
      , (5000341,  71,       1) /* ResistHealthBoost */
@@ -94,8 +94,8 @@ VALUES (5000341,  6, 0, 3, 0, 390, 0, 0) /* MeleeDefense        Specialized */
      , (5000341, 20, 0, 3, 0,  25, 0, 0) /* Deception           Specialized */
      , (5000341, 22, 0, 3, 0, 120, 0, 0) /* Jump                Specialized */
      , (5000341, 24, 0, 3, 0, 500, 0, 0) /* Run                 Specialized */
-     , (5000341, 45, 0, 3, 0, 355, 0, 0) /* LightWeapons        Specialized */
-     , (5000341, 46, 0, 3, 0, 355, 0, 0) /* FinesseWeapons      Specialized */;
+     , (5000341, 45, 0, 3, 0, 455, 0, 0) /* LightWeapons        Specialized */
+     , (5000341, 46, 0, 3, 0, 455, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5000341,  0,  4,  0,    0,  650,  650,  650,  650,  650,  650,  650,  650,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

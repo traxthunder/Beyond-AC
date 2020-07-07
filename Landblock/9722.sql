@@ -273,10 +273,6 @@ VALUES (0x7972205E, 5000888, 0x9722000F, 26.4659, 158.466, 102.055, 0.522766, 0,
 /* @teleloc 0x9722000F [26.465900 158.466003 102.055000] 0.522766 0.000000 0.000000 0.852476 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7972205F, 5000887, 0x9722000F, 39.7728, 146.292, 102.055, -0.445237, 0, 0, 0.895413, False, '2020-06-21 20:30:28'); /* QbarAttack */
-/* @teleloc 0x9722000F [39.772800 146.292007 102.055000] -0.445237 0.000000 0.000000 0.895413 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79722060, 5000888, 0x9722000D, 41.4387, 113.928, 102.055, 0.286844, 0, 0, 0.957977, False, '2020-06-21 20:30:42'); /* QbarAttack */
 /* @teleloc 0x9722000D [41.438702 113.928001 102.055000] 0.286844 0.000000 0.000000 0.957977 */
 
@@ -291,15 +287,3 @@ VALUES (0x79722062, 5000884, 0x9722001D, 83.2207, 98.3161, 102.055, -0.847133, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79722063, 5000884, 0x9722000F, 42.5158, 147.615, 102.055, 0.605842, 0, 0, 0.795585, False, '2020-06-27 20:57:32');
 /* @teleloc 0x9722000F [42.515800 147.615005 102.055000] 0.605842 0.000000 0.000000 0.795585 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79722064, 5000887, 0x97220010, 45.8043, 175.326, 102.055, -0.995085, 0, 0, 0.0990277, False, '2020-07-03 00:20:18'); /* QbarAttack */
-/* @teleloc 0x97220010 [45.804298 175.326004 102.055000] -0.995085 0.000000 0.000000 0.099028 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79722065, 5000887, 0x97220007, 21.7399, 166.505, 102.055, -0.556999, 0, 0, 0.830513, False, '2020-07-03 00:21:08'); /* QbarAttack */
-/* @teleloc 0x97220007 [21.739901 166.505005 102.055000] -0.556999 0.000000 0.000000 0.830513 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79722066, 5000887, 0x97220008, 9.75931, 174.89656, 102.05501, 0.42209843, 0, 0, -0.90655, False, '2020-07-03 00:21:26'); /* QbarAttack */
-/* @teleloc 0x97220008 [9.759310 174.896561 102.055008] 0.422098 0.000000 0.000000 -0.906550 */

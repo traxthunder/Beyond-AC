@@ -29,10 +29,6 @@ VALUES (0x702BB00E,  1758, 0x02BB014C, 73.0947, -90.3583, 0.005, -0.752623, 0, 0
 /* @teleloc 0x02BB014C [73.094704 -90.358299 0.005000] -0.752623 0.000000 0.000000 0.658452 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702BB00F,  8498, 0x02BB0150, 70, -126, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x02BB0150 [70.000000 -126.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BB010,  1756, 0x02BB0151, 80.0021, -43.0609, 0.0042, -0.016702, 0, 0, -0.999861,  True, '2005-02-09 10:00:00'); /* Shadow Child */
 /* @teleloc 0x02BB0151 [80.002098 -43.060902 0.004200] -0.016702 0.000000 0.000000 -0.999861 */
 
@@ -87,13 +83,9 @@ VALUES (0x702BB01B,  7210, 0x02BB0101, 9.99507, -3.49912, -18.063, 0.00298768, 0
 /* @teleloc 0x02BB0101 [9.995070 -3.499120 -18.063000] 0.002988 0.000000 0.000000 0.999996 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702BB01C, 37490, 0x02BB0106, 19.9789, -16.8319, -18.063, -0.999729, 0, 0, 0.0233014, False, '2020-05-31 12:14:33'); /* Graveyard */
-/* @teleloc 0x02BB0106 [19.978901 -16.831900 -18.063000] -0.999729 0.000000 0.000000 0.023301 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BB01D, 5000645, 0x02BB0109, 30.0472, -16.9094, -18.063, -0.999729, 0, 0, 0.0233015, False, '2020-05-31 12:15:31'); /* New Roulea */
 /* @teleloc 0x02BB0109 [30.047199 -16.909401 -18.063000] -0.999729 0.000000 0.000000 0.023302 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702BB01E, 34508, 0x02BB010C, 40.00188, -16.865978, -17.945002, -0.9998771, 0, 0, -0.015679488, False, '2020-06-14 00:52:38'); /* The Colosseum */
-/* @teleloc 0x02BB010C [40.001881 -16.865978 -17.945002] -0.999877 0.000000 0.000000 -0.015679 */
+VALUES (0x702BB01E, 34508, 0x02BB010C, 40.0019, -16.866, -17.945, -0.999877, 0, 0, -0.0156795, False, '2020-06-14 00:52:38'); /* The Colosseum */
+/* @teleloc 0x02BB010C [40.001900 -16.865999 -17.945000] -0.999877 0.000000 0.000000 -0.015679 */

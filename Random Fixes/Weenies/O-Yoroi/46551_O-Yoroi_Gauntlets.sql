@@ -9,7 +9,7 @@ VALUES (46551,   1,          2) /* ItemType - Armor */
      , (46551,   5,        919) /* EncumbranceVal */
      , (46551,   9,         32) /* ValidLocations - HandWear */
      , (46551,  16,          1) /* ItemUseable - No */
-     , (46551,  19,        653) /* Value */
+     , (46551,  19,        20) /* Value */
      , (46551,  28,          1) /* ArmorLevel */
      , (46551,  33,          1) /* Bonded - Bonded */
      , (46551,  53,        101) /* PlacementPosition - Resting */

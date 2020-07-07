@@ -9,7 +9,7 @@ VALUES (46553,   1,          2) /* ItemType - Armor */
      , (46553,   5,        420) /* EncumbranceVal */
      , (46553,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (46553,  16,          1) /* ItemUseable - No */
-     , (46553,  19,         70) /* Value */
+     , (46553,  19,         20) /* Value */
      , (46553,  28,        440) /* ArmorLevel */
      , (46553,  33,          1) /* Bonded - Bonded */
      , (46553,  53,        101) /* PlacementPosition - Resting */

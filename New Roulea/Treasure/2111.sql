@@ -11,7 +11,7 @@ VALUES (2111 	/* id */
 	 , 2		/* item_Max_Amount */
 	 , 9		/* item_Treasure_Type_Selection_Chances */
 	 , 100		/* magic_Item_Chance */
-	 , 4		/* magic_Item_Min_Amount */
+	 , 6		/* magic_Item_Min_Amount */
 	 , 8		/* magic_Item_Max_Amount */
 	 , 8		/* magic_Item_Treasure_Type_Selection_Chances */
 	 , 100		/* mundane_Item_Chance */
