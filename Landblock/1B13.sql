@@ -213,9 +213,5 @@ VALUES (0x71B1302F, 30691, 0x1B130000, 147.603, 112.011, 8.24493, -0.97878, 0, 0
 /* @teleloc 0x1B130000 [147.602997 112.011002 8.244930] -0.978780 0.000000 0.000000 -0.204916 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13030, 5000859, 0x1B13000B, 29.1898, 51.1262, -0.045, 0.906606, 0, 0, -0.421978, False, '2020-06-20 01:07:57'); /* DryAttack */
-/* @teleloc 0x1B13000B [29.189800 51.126202 -0.045000] 0.906606 0.000000 0.000000 -0.421978 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13031, 5000924, 0x1B13001D, 85.32147, 104.4713, 0.054999996, 0.58444244, 0, 0, -0.81143516, False, '2020-06-24 00:24:32');
-/* @teleloc 0x1B13001D [85.321472 104.471298 0.055000] 0.584442 0.000000 0.000000 -0.811435 */
+VALUES (0x71B13031, 5000924, 0x1B13001D, 85.3215, 104.471, 0.055, 0.584442, 0, 0, -0.811435, False, '2020-06-24 00:24:32'); /* BandieIsleBossTrigger */
+/* @teleloc 0x1B13001D [85.321503 104.471001 0.055000] 0.584442 0.000000 0.000000 -0.811435 */

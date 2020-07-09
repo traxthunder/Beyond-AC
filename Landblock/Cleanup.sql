@@ -51,3 +51,5 @@ DELETE FROM landblock_instance WHERE weenie_Class_Id=49596;
 DELETE FROM landblock_instance WHERE weenie_Class_Id=49597; 
 DELETE FROM landblock_instance WHERE weenie_Class_Id=49598; 
 DELETE FROM landblock_instance WHERE weenie_Class_Id=49599; 
+DELETE FROM landblock_instance WHERE guid=80000536;
+DELETE FROM landblock_instance WHERE Guid=80000550;
