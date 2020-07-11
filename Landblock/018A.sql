@@ -1076,5 +1076,9 @@ VALUES (0x7018A12E, 99155, 0x018A0249, 99.9953, -77.4281, 0.00575, -0.00133984, 
 /* @teleloc 0x018A0249 [99.995300 -77.428101 0.005750] -0.001340 0.000000 0.000000 0.999999 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018A12F, 5000814, 0x018A0249, 98.196144, -83.158104, 0.0057500005, -0.94930166, 0, 0, 0.31436652, False, '2020-06-17 16:03:49'); /* Mistress of MMD */
-/* @teleloc 0x018A0249 [98.196144 -83.158104 0.005750] -0.949302 0.000000 0.000000 0.314367 */
+VALUES (0x7018A12F, 5000814, 0x018A0249, 98.1961, -83.1581, 0.00575, -0.949302, 0, 0, 0.314367, False, '2020-06-17 16:03:49'); /* Mistress of MMD */
+/* @teleloc 0x018A0249 [98.196098 -83.158096 0.005750] -0.949302 0.000000 0.000000 0.314367 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7018A130, 5002536, 0x018A0249, 103.57262, -77.760345, 0.0057500005, -0.3510233, 0, 0, -0.93636674, False, '2020-07-11 16:03:35'); /* Mistress of Flags */
+/* @teleloc 0x018A0249 [103.572617 -77.760345 0.005750] -0.351023 0.000000 0.000000 -0.936367 */
