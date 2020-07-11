@@ -13,7 +13,7 @@ VALUES (8652,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8652,  12,          1) /* StackSize */
      , (8652,  13,        150) /* StackUnitEncumbrance */
      , (8652,  14,         50) /* StackUnitMass */
-     , (8652,  15,        100) /* StackUnitValue */
+     , (8652,  15,        10) /* StackUnitValue */
      , (8652,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8652,  19,        10) /* Value */
      , (8652,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
