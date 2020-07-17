@@ -27,8 +27,7 @@ VALUES (5000873,   1, True ) /* Stuck */
      , (5000873,  29, True ) /* NoCorpse */
      , (5000873,  41, True ) /* ReportCollisionsAsEnvironment */
      , (5000873,  42, True ) /* AllowEdgeSlide */
-     , (5000873,  52, True ) /* AiImmobile */
-     , (5000873,  79, True ) /* AiAcceptEverything */;
+     , (5000873,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5000873,   1,       5) /* HeartbeatInterval */

@@ -60,11 +60,3 @@ VALUES (0x77F9000D, 16892, 0x7F90011E, 106.917, 163.318, 147.205, 0.514846, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F9000E, 28183, 0x7F900000, 101.293, 145.315, 144.005, 0.169377, 0, 0, -0.985551,  True, '2005-02-09 10:00:00'); /* Apprentice Alchemist */
 /* @teleloc 0x7F900000 [101.292999 145.315002 144.005005] 0.169377 0.000000 0.000000 -0.985551 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F9000F, 5000892, 0x7F90003C, 191.655, 76.6415, 128.113, -0.855126, 0, 0, -0.518421, False, '2020-06-25 20:01:41'); /* ZaikAttack */
-/* @teleloc 0x7F90003C [191.654999 76.641502 128.113007] -0.855126 0.000000 0.000000 -0.518421 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F90010, 5000892, 0x7F90003D, 187.79388, 114.530846, 128.75601, -0.98022354, 0, 0, 0.19789334, False, '2020-06-25 20:01:45'); /* ZaikAttack */
-/* @teleloc 0x7F90003D [187.793884 114.530846 128.756012] -0.980224 0.000000 0.000000 0.197893 */
