@@ -42,7 +42,7 @@ VALUES (5001137,  21,       0) /* WeaponLength */
      , (5001137,  26, 24.8999996185303) /* MaximumVelocity */
      , (5001137,  29,       1.06) /* WeaponDefense */
      , (5001137,  62,       1) /* WeaponOffense */
-     , (5001137,  63, 1.70000004768372) /* DamageMod */;
+     , (5001137,  63, 1.35) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5001137,   1, 'Flaming Atlatl') /* Name */;

@@ -11,7 +11,7 @@ VALUES (5001023,   1,          1) /* ItemType - MeleeWeapon */
      , (5001023,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (5001023,  16,          1) /* ItemUseable - No */
      , (5001023,  19,         200000) /* Value */
-     , (5001023,  44,          15) /* Damage */
+     , (5001023,  44,          7) /* Damage */
      , (5001023,  45,          4) /* DamageType - Bludgeon */
      , (5001023,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (5001023,  47,          1) /* AttackType - Punch */

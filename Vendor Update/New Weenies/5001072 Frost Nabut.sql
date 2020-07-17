@@ -13,7 +13,7 @@ VALUES (5001072,   1,          1) /* ItemType - MeleeWeapon */
      , (5001072,  18,        128) /* UiEffects - Frost */
      , (5001072,  19,     200000) /* Value */
      , (5001072,  33,          1) /* Bonded - Bonded */
-     , (5001072,  44,         21) /* Damage */
+     , (5001072,  44,         11) /* Damage */
      , (5001072,  45,          8) /* DamageType - Cold */
      , (5001072,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (5001072,  47,          6) /* AttackType - Thrust, Slash */

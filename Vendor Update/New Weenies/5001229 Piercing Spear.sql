@@ -12,7 +12,7 @@ VALUES (5001229,   1,          1) /* ItemType - MeleeWeapon */
      , (5001229,  16,          1) /* ItemUseable - No */
      , (5001229,  19,     200000) /* Value */
      , (5001229,  33,          1) /* Bonded - Bonded */
-     , (5001229,  44,         23) /* Damage */
+     , (5001229,  44,         12) /* Damage */
      , (5001229,  45,          2) /* DamageType - Pierce */
      , (5001229,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (5001229,  47,          2) /* AttackType - Thrust */

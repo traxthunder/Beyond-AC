@@ -12,7 +12,7 @@ VALUES (5001017,   1,          1) /* ItemType - MeleeWeapon */
      , (5001017,  16,          1) /* ItemUseable - No */
      , (5001017,  18,         32) /* UiEffects - Fire */
      , (5001017,  19,        200000) /* Value */
-     , (5001017,  44,          15) /* Damage */
+     , (5001017,  44,          7) /* Damage */
      , (5001017,  45,         16) /* DamageType - Fire */
      , (5001017,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (5001017,  47,          1) /* AttackType - Punch */

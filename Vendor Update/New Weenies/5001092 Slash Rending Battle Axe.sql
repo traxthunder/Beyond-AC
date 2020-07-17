@@ -12,7 +12,7 @@ VALUES (5001092,   1,          1) /* ItemType - MeleeWeapon */
      , (5001092,  16,          1) /* ItemUseable - No */
      , (5001092,  19,     200000) /* Value */
      , (5001092,  33,          1) /* Bonded - Bonded */
-     , (5001092,  44,         24) /* Damage */
+     , (5001092,  44,         12) /* Damage */
      , (5001092,  45,          1) /* DamageType - Slash */
      , (5001092,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (5001092,  47,          4) /* AttackType - Slash */

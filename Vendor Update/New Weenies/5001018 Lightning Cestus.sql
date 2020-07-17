@@ -12,7 +12,7 @@ VALUES (5001018,   1,          1) /* ItemType - MeleeWeapon */
      , (5001018,  16,          1) /* ItemUseable - No */
      , (5001018,  18,         64) /* UiEffects - Lightning */
      , (5001018,  19,        200000) /* Value */
-     , (5001018,  44,          15) /* Damage */
+     , (5001018,  44,          7) /* Damage */
      , (5001018,  45,         64) /* DamageType - Electric */
      , (5001018,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (5001018,  47,          1) /* AttackType - Punch */

@@ -12,7 +12,7 @@ VALUES (5001016,   1,          1) /* ItemType - MeleeWeapon */
      , (5001016,  16,          1) /* ItemUseable - No */
      , (5001016,  18,        128) /* UiEffects - Frost */
      , (5001016,  19,        200000) /* Value */
-     , (5001016,  44,          15) /* Damage */
+     , (5001016,  44,          7) /* Damage */
      , (5001016,  45,          8) /* DamageType - Cold */
      , (5001016,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (5001016,  47,          1) /* AttackType - Punch */

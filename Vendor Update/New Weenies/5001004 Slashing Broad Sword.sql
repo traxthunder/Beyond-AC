@@ -11,7 +11,7 @@ VALUES (5001004,   1,          1) /* ItemType - MeleeWeapon */
      , (5001004,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (5001004,  16,          1) /* ItemUseable - No */
      , (5001004,  19,        200000) /* Value */
-     , (5001004,  44,         18) /* Damage */
+     , (5001004,  44,         9) /* Damage */
      , (5001004,  45,          3) /* DamageType - Slash/Pierce */
      , (5001004,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (5001004,  47,          6) /* AttackType - Thrust, Slash */

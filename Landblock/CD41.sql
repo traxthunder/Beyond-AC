@@ -401,3 +401,47 @@ VALUES (0x7CD4107E, 5000845, 0xCD410023, 102.085, 62.4566, 54.055, 0.993622, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD4107F, 5000845, 0xCD41002F, 125.111, 147.638, 54.055, 0.592716, 0, 0, 0.805412, False, '2020-06-25 20:05:12'); /* BaishiAttack */
 /* @teleloc 0xCD41002F [125.111000 147.638000 54.055000] 0.592716 0.000000 0.000000 0.805412 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CD41080, 5000981, 0xCD410036, 166.881, 143.716, 54.055, -0.825806, 0, 0, -0.563954, False, '2020-07-17 01:15:33'); /* BaishiAttack2 */
+/* @teleloc 0xCD410036 [166.880997 143.716003 54.055000] -0.825806 0.000000 0.000000 -0.563954 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CD41081, 5000981, 0xCD41002D, 133.376, 119.29, 54.055, -0.780322, 0, 0, -0.625378, False, '2020-07-17 01:15:39'); /* BaishiAttack2 */
+/* @teleloc 0xCD41002D [133.376007 119.290001 54.055000] -0.780322 0.000000 0.000000 -0.625378 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CD41082, 5000981, 0xCD410025, 100.625, 99.8031, 54.055, -0.593632, 0, 0, -0.804737, False, '2020-07-17 01:15:43'); /* BaishiAttack2 */
+/* @teleloc 0xCD410025 [100.625000 99.803101 54.055000] -0.593632 0.000000 0.000000 -0.804737 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CD41083, 5000981, 0xCD41001B, 87.1119, 70.5269, 54.055, 0.561455, 0, 0, -0.827507, False, '2020-07-17 01:15:47'); /* BaishiAttack2 */
+/* @teleloc 0xCD41001B [87.111900 70.526901 54.055000] 0.561455 0.000000 0.000000 -0.827507 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CD41084, 5000981, 0xCD41002B, 140.688, 66.6001, 54.055, 0.723016, 0, 0, -0.690831, False, '2020-07-17 01:15:51'); /* BaishiAttack2 */
+/* @teleloc 0xCD41002B [140.688004 66.600098 54.055000] 0.723016 0.000000 0.000000 -0.690831 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CD41085, 5000981, 0xCD410034, 151.285, 83.8191, 54.055, 0.995114, 0, 0, 0.0987315, False, '2020-07-17 01:15:54'); /* BaishiAttack2 */
+/* @teleloc 0xCD410034 [151.285004 83.819099 54.055000] 0.995114 0.000000 0.000000 0.098732 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CD41086, 5000981, 0xCD410016, 65.8867, 121.294, 54.055, 0.999244, 0, 0, -0.0388816, False, '2020-07-17 01:16:11'); /* BaishiAttack2 */
+/* @teleloc 0xCD410016 [65.886703 121.293999 54.055000] 0.999244 0.000000 0.000000 -0.038882 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CD41087, 5000981, 0xCD410026, 114.329, 143.832, 54.055, 0.689474, 0, 0, -0.72431, False, '2020-07-17 01:16:21'); /* BaishiAttack2 */
+/* @teleloc 0xCD410026 [114.329002 143.832001 54.055000] 0.689474 0.000000 0.000000 -0.724310 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CD41088, 5000981, 0xCD410037, 157.841, 161.264, 54.055, 0.796122, 0, 0, -0.605136, False, '2020-07-17 01:16:27'); /* BaishiAttack2 */
+/* @teleloc 0xCD410037 [157.841003 161.264008 54.055000] 0.796122 0.000000 0.000000 -0.605136 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CD41089, 5000981, 0xCD410025, 115.418, 102.799, 54.055, -0.538011, 0, 0, -0.842938, False, '2020-07-17 01:16:37'); /* BaishiAttack2 */
+/* @teleloc 0xCD410025 [115.417999 102.799004 54.055000] -0.538011 0.000000 0.000000 -0.842938 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CD4108A, 5000982, 0xCD41002D, 120.459145, 106.44051, 54.055, 0.29091805, 0, 0, 0.95674795, False, '2020-07-17 01:16:48'); /* BaishiAttack2 */
+/* @teleloc 0xCD41002D [120.459145 106.440514 54.055000] 0.290918 0.000000 0.000000 0.956748 */

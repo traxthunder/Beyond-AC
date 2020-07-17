@@ -12,7 +12,7 @@ VALUES (5001019,   1,          1) /* ItemType - MeleeWeapon */
      , (5001019,  16,          1) /* ItemUseable - No */
      , (5001019,  18,        256) /* UiEffects - Acid */
      , (5001019,  19,        200000) /* Value */
-     , (5001019,  44,          15) /* Damage */
+     , (5001019,  44,          7) /* Damage */
      , (5001019,  45,         32) /* DamageType - Acid */
      , (5001019,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (5001019,  47,          1) /* AttackType - Punch */

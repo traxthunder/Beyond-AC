@@ -13,7 +13,7 @@ VALUES (5001075,   1,          1) /* ItemType - MeleeWeapon */
      , (5001075,  18,        256) /* UiEffects - Acid */
      , (5001075,  19,     200000) /* Value */
      , (5001075,  33,          1) /* Bonded - Bonded */
-     , (5001075,  44,         21) /* Damage */
+     , (5001075,  44,         11) /* Damage */
      , (5001075,  45,         32) /* DamageType - Acid */
      , (5001075,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (5001075,  47,          6) /* AttackType - Thrust, Slash */

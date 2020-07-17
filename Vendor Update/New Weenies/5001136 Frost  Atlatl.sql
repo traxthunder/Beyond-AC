@@ -42,7 +42,7 @@ VALUES (5001136,  21,       0) /* WeaponLength */
      , (5001136,  26, 24.8999996185303) /* MaximumVelocity */
      , (5001136,  29,       1.06) /* WeaponDefense */
      , (5001136,  62,       1) /* WeaponOffense */
-     , (5001136,  63, 1.70000004768372) /* DamageMod */;
+     , (5001136,  63, 1.3500004768372) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5001136,   1, 'Freezing Atlatl') /* Name */;
