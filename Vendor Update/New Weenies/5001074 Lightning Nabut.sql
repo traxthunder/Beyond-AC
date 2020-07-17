@@ -13,7 +13,7 @@ VALUES (5001074,   1,          1) /* ItemType - MeleeWeapon */
      , (5001074,  18,         64) /* UiEffects - Lightning */
      , (5001074,  19,     200000) /* Value */
      , (5001074,  33,          1) /* Bonded - Bonded */
-     , (5001074,  44,         21) /* Damage */
+     , (5001074,  44,         11) /* Damage */
      , (5001074,  45,         64) /* DamageType - Electric */
      , (5001074,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (5001074,  47,          6) /* AttackType - Thrust, Slash */

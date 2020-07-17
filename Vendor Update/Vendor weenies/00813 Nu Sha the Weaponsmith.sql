@@ -205,4 +205,5 @@ VALUES (813, 2,   303,  0, 0, 0, False) /* Create Hand Axe (303) for Wield */
      , (813, 4,   5001127, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (813, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (813, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (813, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
+     , (813, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (813, 4,  20630, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

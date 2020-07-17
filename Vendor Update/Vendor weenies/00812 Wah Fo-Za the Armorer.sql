@@ -196,4 +196,5 @@ VALUES (812, 2,   321,  0, 0, 0, False) /* Create Jitte (321) for Wield */
      , (812, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
      , (812, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (812, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (812, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
+     , (812, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (812, 4,  20630, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

@@ -155,5 +155,17 @@ VALUES (0x7F222031, 5000230, 0xF2220036, 159.731, 122.466, 18.055, 0.477649, 0, 
 /* @teleloc 0xF2220036 [159.731003 122.466003 18.055000] 0.477649 0.000000 0.000000 0.878550 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F222032, 5000798, 0xF222002F, 133.05325, 162.46463, 18.054998, 0.06517823, 0, 0, 0.99787366, False, '2020-07-09 17:27:20'); /* Advocate Blessing */
-/* @teleloc 0xF222002F [133.053253 162.464630 18.054998] 0.065178 0.000000 0.000000 0.997874 */
+VALUES (0x7F222032, 5000798, 0xF222002F, 133.053, 162.465, 18.055, 0.0651782, 0, 0, 0.997874, False, '2020-07-09 17:27:20'); /* Advocate Blessing */
+/* @teleloc 0xF222002F [133.052994 162.464996 18.055000] 0.065178 0.000000 0.000000 0.997874 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F222033, 5000993, 0xF2220036, 153.678, 120.106, 18.005, 0.813133, 0, 0, -0.582079, False, '2020-07-17 02:09:12');
+/* @teleloc 0xF2220036 [153.677994 120.106003 18.004999] 0.813133 0.000000 0.000000 -0.582079 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F222034, 5000996, 0xF2220037, 151.482, 151.599, 18.005, 0.968102, 0, 0, 0.250557, False, '2020-07-17 03:07:14');
+/* @teleloc 0xF2220037 [151.481995 151.598999 18.004999] 0.968102 0.000000 0.000000 0.250557 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F222035, 5000997, 0xF222010E, 139.69577, 126.60428, 19.205, -0.51613224, 0, 0, -0.8565089, False, '2020-07-17 03:15:00');
+/* @teleloc 0xF222010E [139.695770 126.604279 19.205000] -0.516132 0.000000 0.000000 -0.856509 */

@@ -205,4 +205,5 @@ VALUES (820, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
      , (820, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (820, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (820, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (820, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */;
+     , (820, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
+     , (820, 4,  20630, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */;

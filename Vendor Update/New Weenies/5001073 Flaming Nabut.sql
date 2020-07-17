@@ -13,7 +13,7 @@ VALUES (5001073,   1,          1) /* ItemType - MeleeWeapon */
      , (5001073,  18,         32) /* UiEffects - Fire */
      , (5001073,  19,     200000) /* Value */
      , (5001073,  33,          1) /* Bonded - Bonded */
-     , (5001073,  44,         21) /* Damage */
+     , (5001073,  44,         11) /* Damage */
      , (5001073,  45,         16) /* DamageType - Fire */
      , (5001073,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (5001073,  47,          6) /* AttackType - Thrust, Slash */

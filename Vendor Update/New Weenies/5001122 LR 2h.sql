@@ -11,7 +11,7 @@ VALUES (5001122,   1,          1) /* ItemType - MeleeWeapon */
      , (5001122,  16,          1) /* ItemUseable - No */
      , (5001122,  19,     200000) /* Value */
      , (5001122,  33,          1) /* Bonded - Bonded */
-     , (5001122,  44,         11) /* Damage */
+     , (5001122,  44,         6) /* Damage */
      , (5001122,  45,         64) /* DamageType - Electric */
      , (5001122,  46,          8) /* DefaultCombatStyle - TwoHanded */
      , (5001122,  47,          4) /* AttackType - Slash */

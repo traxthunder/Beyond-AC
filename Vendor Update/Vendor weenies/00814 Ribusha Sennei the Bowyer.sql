@@ -206,6 +206,7 @@ VALUES (814, 2,   341,  0, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (814, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (814, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (814, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (814, 4,  20630, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (814, 4,   304, -1, 0, 0, False) /* Create Throwing Axe (304) for Shop */
      , (814, 4,  3758, -1, 0, 0, False) /* Create Acid Throwing Axe (3758) for Shop */
      , (814, 4,  3759, -1, 0, 0, False) /* Create Lightning Throwing Axe (3759) for Shop */
