@@ -109,11 +109,11 @@ VALUES (0x7E632021, 5000798, 0xE6320001, 14.402, 11.5291, 28.055, 0.999574, 0, 0
 /* @teleloc 0xE6320001 [14.402000 11.529100 28.055000] 0.999574 0.000000 0.000000 0.029174 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E632022, 5000988, 0xE632013A, 37.635, 10.1691, 28.005, -0.887082, 0, 0, 0.461613, False, '2020-07-17 02:08:04');
+VALUES (0x7E632022, 5000988, 0xE632013A, 37.635, 10.1691, 28.005, -0.887082, 0, 0, 0.461613, False, '2020-07-17 02:08:04'); /* Starry eyed Mage of Peace and love */
 /* @teleloc 0xE632013A [37.634998 10.169100 28.004999] -0.887082 0.000000 0.000000 0.461613 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E632023, 5000992, 0xE632013F, 30.0806, 14.1008, 28.005, -0.946983, 0, 0, 0.321283, False, '2020-07-17 02:08:25');
+VALUES (0x7E632023, 5000992, 0xE632013F, 30.0806, 14.1008, 28.005, -0.946983, 0, 0, 0.321283, False, '2020-07-17 02:08:25'); /* Broker of Starry Night */
 /* @teleloc 0xE632013F [30.080601 14.100800 28.004999] -0.946983 0.000000 0.000000 0.321283 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -129,5 +129,9 @@ VALUES (0x7E632026, 5000222, 0xE6320001, 6.43366, 12.2308, 28, 0.723675, 0, 0, -
 /* @teleloc 0xE6320001 [6.433660 12.230800 28.000000] 0.723675 0.000000 0.000000 -0.690141 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E632027, 5000222, 0xE6320001, 8.662053, 13.46353, 28, 0.952699, 0, 0, -0.3039155, False, '2020-07-17 02:16:36'); /* Bench */
-/* @teleloc 0xE6320001 [8.662053 13.463530 28.000000] 0.952699 0.000000 0.000000 -0.303916 */
+VALUES (0x7E632027, 5000222, 0xE6320001, 8.66205, 13.4635, 28, 0.952699, 0, 0, -0.303916, False, '2020-07-17 02:16:36'); /* Bench */
+/* @teleloc 0xE6320001 [8.662050 13.463500 28.000000] 0.952699 0.000000 0.000000 -0.303916 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E632028, 5000298, 0xE6320011, 53.13033, 9.422282, 28.054998, -0.9999998, 0, 0, -0.0005825298, False, '2020-07-17 05:54:26'); /* Tinktime */
+/* @teleloc 0xE6320011 [53.130329 9.422282 28.054998] -1.000000 0.000000 0.000000 -0.000583 */
