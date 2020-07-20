@@ -67,5 +67,4 @@ VALUES (5000713,   1,   33558204) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5000713,  4172,      2)  /* Harbinger's Focus */
      , (5000713,  4175,      2)  /* Harbinger's Willpower */
-     , (5000713,  4190,      2)  /* Harbinger Cold Protection */
-     , (5000713,  4425,      2)  /* Incantation of Frost Arc */;
+     , (5000713,  4190,      2)  /* Harbinger Cold Protection */;
