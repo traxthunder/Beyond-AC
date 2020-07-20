@@ -59,6 +59,7 @@ VALUES (5000713,   1,   33558204) /* Setup */
      , (5000713,   8,  100674038) /* Icon */
      , (5000713,  22,  872415275) /* PhysicsEffectTable */
      , (5000713,  27, 1073742048) /* UseUserAnimation - UseMagicStaff */
+     , (5000713,  28,       4425) /* Spell - Incantation of Frost Arc */
      , (5000713,  36,  234881046) /* MutateFilter */
      , (5000713,  46,  939524144) /* TsysMutationFilter */
      , (5000713,  52,  100676435) /* IconUnderlay */;

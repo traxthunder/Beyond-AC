@@ -25,7 +25,7 @@ VALUES (5000711,   1,      32768) /* ItemType - Caster */
      , (5000711, 158,          7) /* WieldRequirements - Level */
      , (5000711, 159,          1) /* WieldSkillType - Axe */
      , (5000711, 160,        230) /* WieldDifficulty */
-     , (5000711, 179,          4) /* ImbuedEffect - ArmorRending */
+     , (5000711, 179,          128) /* ImbuedEffect - ColdRending */
      , (5000711, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
