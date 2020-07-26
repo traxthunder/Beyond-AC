@@ -13,7 +13,7 @@ VALUES (5000711,   1,      32768) /* ItemType - Caster */
      , (5000711,  18,          1) /* UiEffects - Magical */
      , (5000711,  19,          0) /* Value */
      , (5000711,  33,          1) /* Bonded - Bonded */
-     , (5000711,  45,          8) /* DamageType - Cold */
+     , (5000711,  45,          1) /* DamageType - Cold */
      , (5000711,  46,        512) /* DefaultCombatStyle - Magic */
      , (5000711,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (5000711,  94,         16) /* TargetType - Creature */
@@ -25,7 +25,7 @@ VALUES (5000711,   1,      32768) /* ItemType - Caster */
      , (5000711, 158,          7) /* WieldRequirements - Level */
      , (5000711, 159,          1) /* WieldSkillType - Axe */
      , (5000711, 160,        230) /* WieldDifficulty */
-     , (5000711, 179,          4) /* ImbuedEffect - ArmorRending */
+     , (5000711, 179,          8) /* ImbuedEffect - ArmorRending */
      , (5000711, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
