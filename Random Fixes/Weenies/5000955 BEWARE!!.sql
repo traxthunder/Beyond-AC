@@ -23,7 +23,7 @@ VALUES (5000955,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5000955,   1, 'BEWARE!!') /* Name */
-     , (5000955,  16, 'Using This NPC Will Level you to 42, it will grant you All buden augs and the 8th pack slot. It will then untrail all of your skills and delete the skill credits. Do not cry it you did not read this sign') /* LongDesc */;
+     , (5000955,  16, 'Using this NPC will automatically level you to level 42 and grant you ALL burden augs and the 8th pack slot. It will then untrain all of your skills and DELETE all skill credits. Do not cry if you did not read this sign!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5000955,   1,   33555088) /* Setup */
