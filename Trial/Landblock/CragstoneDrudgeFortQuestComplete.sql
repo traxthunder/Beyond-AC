@@ -215,9 +215,9 @@ INSERT INTO `landblock_instance` (`weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, 
 INSERT INTO `ace_world`.`quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`) VALUES ('5000001', 'CragstoneDrudgeQuest', '72000', '-1', 'Cragstone Drudge Fort', '2019-09-05 11:37:00');
 INSERT INTO `ace_world`.`quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`) VALUES ('5000002', 'CragstoneDrudgeQuest2', '72000', '1', 'Cragstone drudge fort 2', '2019-09-05 18:35:09');
 
-INSERT INTO `landblock_instance` (`weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-	VALUES (2000001, 2781, items, on, the, left, , , , False, '2019-07-27 14:14:00'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc Add items on the left */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BC9F031, 2000001, 0xBC9F001F, 82.54466, 157.90701, 41.928223, -0.7642689, 0, 0, -0.64489776, False, '2020-08-11 01:00:04'); /* Crying Child. */
+/* @teleloc 0xBC9F001F [82.544662 157.907013 41.928223] -0.764269 0.000000 0.000000 -0.644898 */
 
 INSERT INTO `landblock_instance` (`weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 	VALUES (2000002, 3097428226, 168.069992, 34.943130, 78.805000, -0.391962, 0.000000, 0.000000, 0.919981, False, '2019-07-27 14:14:00'); /* Linkable Monster Generator ( 5 Min.) */

@@ -126,7 +126,7 @@ INSERT INTO `landblock_instance` (`weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, 
 	VALUES (9000000, 3111125042, 153.403503, 46.156891, 15.851408, -0.078150, 0.000000, 0.000000, -0.996942, False, '2019-07-27 14:14:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc B9700032 153.403503 46.156891 15.851408 -0.078150 0.000000 0.000000 -0.996942 */;
     
-INSERT INTO `ace_world`.`quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`) VALUES ('5000000', 'YS', '0', '1', 'Yanshi Shadows');
+INSERT INTO `ace_world`.`quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`) VALUES ('5990000', 'YanshiS', '0', '1', 'Yanshi Shadows');
  
  INSERT INTO `landblock_instance` (`weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 	VALUES (2000026, 3027238947, 103.913994, 61.090370, 42.005001, 0.115733, 0.000000, 0.000000, -0.993280, False, '2019-07-27 14:14:00'); /* Linkable Monster Generator ( 5 Min.) */
