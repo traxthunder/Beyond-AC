@@ -71,8 +71,6 @@ VALUES (2000210,   1, 'Child') /* Name */
      , (2000210,   4, 'sho') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES 
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2000210,   1,   33554433) /* Setup */
      , (2000210,   2,  150994945) /* MotionTable */
      , (2000210,   3,  536870913) /* SoundTable */

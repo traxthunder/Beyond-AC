@@ -70,8 +70,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2000201,   1, 'Child') /* Name */
      , (2000201,   4, 'Aluvian') /* HeritageGroup */;
 
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES 
+
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2000201,   1,   33554433) /* Setup */
      , (2000201,   2,  150994945) /* MotionTable */

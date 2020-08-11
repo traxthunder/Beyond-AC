@@ -71,8 +71,6 @@ VALUES (2000209,   1, 'Child') /* Name */
      , (2000209,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES 
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2000209,   1,   33554433) /* Setup */
      , (2000209,   2,  150994945) /* MotionTable */
      , (2000209,   3,  536870913) /* SoundTable */
