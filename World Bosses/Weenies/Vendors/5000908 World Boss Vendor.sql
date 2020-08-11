@@ -207,4 +207,5 @@ VALUES (5000908, 2, 5000499,  0, 0, 0, False) /* Create Light Weapons Tattoo (50
      , (5000908, 4, 5001109, -1, 0, 0, False) /* Create Relanim Dye Pot (5001109) for Shop */
      , (5000908, 4, 5001110, -1, 0, 0, False) /* Create Relanim Dye Pot (5001109) for Shop */
      , (5000908, 4, 5001111, -1, 0, 0, False) /* Create Relanim Dye Pot (5001109) for Shop */
+     , (5000908, 4, 29270, -1, 0, 0, False) /* Create Relanim Dye Pot (5001109) for Shop */
      , (5000908, 4, 9511, -1, 0, 0, False) /* Create Relanim Dye Pot (5001109) for Shop */;
