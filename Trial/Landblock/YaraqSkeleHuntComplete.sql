@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 	VALUES (9123113, -1, 35097, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (35097) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-	, (9123113, -1, 31013, 180, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31013) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-	, (9123113, -1, 31014, 180, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31014) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+	, (9123113, -1, 31013,  0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31013) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+	, (9123113, -1, 31014,  0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31014) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
 	, (9123113, -1, 35097, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (35097) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-	, (9123113, -1, 31013, 180, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31013) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-	, (9123113, -1, 31014, 180, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31014) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+	, (9123113, -1, 31013, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31013) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+	, (9123113, -1, 31014,  0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31014) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
 	, (9123113, -1, 35097, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (35097) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-	, (9123113, -1, 31013, 180, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31013) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-	, (9123113, -1, 31014, 180, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31014) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+	, (9123113, -1, 31013,  0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31013) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+	, (9123113, -1, 31014,  0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31014) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
 
 
 INSERT INTO `landblock_instance` (`weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
