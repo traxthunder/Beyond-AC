@@ -19,3 +19,6 @@ INSERT INTO `quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`, `last_M
 
 DELETE FROM `quest` WHERE (`id` = '500106');
 INSERT INTO `quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`) VALUES ('500106', 'Mohagany', '0', '-1', 'Salvage m', '2019-09-05 19:03:38');
+
+DELETE FROM `quest` WHERE (`id` = '500107');
+INSERT INTO `quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`) VALUES ('500107', 'Sandstone', '0', '-1', 'Salvage ss', '2020-07-27 21:01:00');
