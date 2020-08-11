@@ -35,36 +35,19 @@ VALUES (2000206,   1, True ) /* Stuck */
      , (2000206,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2000206,   1,       5) /* HeartbeatInterval */
-     , (2000206,   2,       0) /* HeartbeatTimestamp */
-     , (2000206,   3,    0.16) /* HealthRate */
-     , (2000206,   4,       5) /* StaminaRate */
-     , (2000206,   5,       1) /* ManaRate */
-     , (2000206,  11,     300) /* ResetInterval */
-     , (2000206,  12,       1) /* Shade */
-     , (2000206,  13,     0.9) /* ArmorModVsSlash */
-     , (2000206,  14,       1) /* ArmorModVsPierce */
-     , (2000206,  15,     1.1) /* ArmorModVsBludgeon */
-     , (2000206,  16,     0.4) /* ArmorModVsCold */
-     , (2000206,  17,     0.4) /* ArmorModVsFire */
-     , (2000206,  18,       1) /* ArmorModVsAcid */
-     , (2000206,  19,     0.6) /* ArmorModVsElectric */
-     , (2000206,  39,     0.7) /* DefaultScale */
-     , (2000206,  54,       3) /* UseRadius */
-     , (2000206,  64,       1) /* ResistSlash */
-     , (2000206,  65,       1) /* ResistPierce */
-     , (2000206,  66,       1) /* ResistBludgeon */
-     , (2000206,  67,       1) /* ResistFire */
-     , (2000206,  68,       1) /* ResistCold */
-     , (2000206,  69,       1) /* ResistAcid */
-     , (2000206,  70,       1) /* ResistElectric */
-     , (2000206,  71,       1) /* ResistHealthBoost */
-     , (2000206,  72,       1) /* ResistStaminaDrain */
-     , (2000206,  73,       1) /* ResistStaminaBoost */
-     , (2000206,  74,       1) /* ResistManaDrain */
-     , (2000206,  75,       1) /* ResistManaBoost */
-     , (2000206, 104,      10) /* ObviousRadarRange */
-     , (2000206, 125,       1) /* ResistHealthDrain */;
+VALUES 
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2000206,   1,   33554433) /* Setup */
+     , (2000206,   2,  150994945) /* MotionTable */
+     , (2000206,   3,  536870913) /* SoundTable */
+     , (2000206,   6,   67108990) /* PaletteBase */
+     , (2000206,   8,  100667446) /* Icon */
+     , (2000206,   9,   83890509) /* EyesTexture */
+     , (2000206,  10,   83890550) /* NoseTexture */
+     , (2000206,  11,   83890641) /* MouthTexture */
+     , (2000206,  15,   67117027) /* HairPalette */
+     , (2000206,  16,   67109567) /* EyesPalette */
+     , (2000206,  17,   67109558) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2000206,   1, 'Child') /* Name */

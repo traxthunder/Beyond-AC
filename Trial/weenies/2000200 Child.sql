@@ -73,18 +73,15 @@ VALUES (2000200,   1, 'Child') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2000200,   1,   33554433) /* Setup */
      , (2000200,   2,  150994945) /* MotionTable */
-     , (2000200,   3,  536871084) /* SoundTable */
-     , (2000200,   4,  805306368) /* CombatTable */
+     , (2000200,   3,  536870913) /* SoundTable */
      , (2000200,   6,   67108990) /* PaletteBase */
-     , (2000200,   7,  268435545) /* ClothingBase */
      , (2000200,   8,  100667446) /* Icon */
-     , (2000200,   9,   83890480) /* EyesTexture */
-     , (2000200,  10,   83890549) /* NoseTexture */
-     , (2000200,  11,   83890662) /* MouthTexture */
-     , (2000200,  15,   67117023) /* HairPalette */
-     , (2000200,  16,   67110063) /* EyesPalette */
-     , (2000200,  17,   67109560) /* SkinPalette */
-     , (2000200,  31,      23889) /* LinkedPortalOne - Tower of the Madman */;
+     , (2000200,   9,   83890509) /* EyesTexture */
+     , (2000200,  10,   83890550) /* NoseTexture */
+     , (2000200,  11,   83890641) /* MouthTexture */
+     , (2000200,  15,   67117027) /* HairPalette */
+     , (2000200,  16,   67109567) /* EyesPalette */
+     , (2000200,  17,   67109558) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (2000200,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
