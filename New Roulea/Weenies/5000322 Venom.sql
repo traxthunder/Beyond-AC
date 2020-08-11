@@ -19,7 +19,7 @@ VALUES (5000322,   1,         16) /* ItemType - Creature */
      , (5000322, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (5000322, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5000322, 140,          1) /* AiOptions - CanOpenDoors */
-     , (5000322, 146,  500000000) /* XpOverride */
+     , (5000322, 146,  50000000) /* XpOverride */
      , (5000322, 332,        500) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,7 +44,7 @@ VALUES (5000322,   1,       5) /* HeartbeatInterval */
      , (5000322,  16,       0) /* ArmorModVsCold */
      , (5000322,  17,       0) /* ArmorModVsFire */
      , (5000322,  18,       0) /* ArmorModVsAcid */
-     , (5000322,  19,     0.5) /* ArmorModVsElectric */
+     , (5000322,  19,     1) /* ArmorModVsElectric */
      , (5000322,  31,      24) /* VisualAwarenessRange */
      , (5000322,  34,       1) /* PowerupTime */
      , (5000322,  36,       1) /* ChargeSpeed */
@@ -55,7 +55,7 @@ VALUES (5000322,   1,       5) /* HeartbeatInterval */
      , (5000322,  67,       0) /* ResistFire */
      , (5000322,  68,       0) /* ResistCold */
      , (5000322,  69,       0) /* ResistAcid */
-     , (5000322,  70, 0.0500000007450581) /* ResistElectric */
+     , (5000322,  70, 0.1) /* ResistElectric */
      , (5000322,  71,       1) /* ResistHealthBoost */
      , (5000322,  72,       1) /* ResistStaminaDrain */
      , (5000322,  73,       1) /* ResistStaminaBoost */
@@ -66,10 +66,10 @@ VALUES (5000322,   1,       5) /* HeartbeatInterval */
      , (5000322, 104,      10) /* ObviousRadarRange */
      , (5000322, 122,       2) /* AiAcquireHealth */
      , (5000322, 125,       0) /* ResistHealthDrain */
-     , (5000322, 166,       0) /* ResistNether */;
+     , (5000322, 166,       0.05) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5000322,   1, 'Venom') /* Name */;
+VALUES (5000322,   1, 'Terror') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5000322,   1,   33558554) /* Setup */
@@ -108,9 +108,9 @@ VALUES (5000322,  6, 0, 3, 0, 387, 0, 0) /* MeleeDefense        Specialized */
      , (5000322, 45, 0, 3, 0, 350, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (5000322,  0, 32, 2000,  0.5, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
-     , (5000322, 10, 32, 2100,  0.5, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
-     , (5000322, 13, 32, 2200,  0.5, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
+VALUES (5000322,  0, 32, 2500,  0.5, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
+     , (5000322, 10, 32, 2600,  0.5, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
+     , (5000322, 13, 32, 2700,  0.5, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
      , (5000322, 16,  4,  0,    0, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */
      , (5000322, 22,  8, 75,  0.5, 3000,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
@@ -186,4 +186,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5000322, 9, 5000465,  0, 0, 0.02, False) /* Create Sparkling Dragon Heart (5000465) for ContainTreasure */
      , (5000322, 9, 5000393,  0, 0, 0.2, False) /* Create dragon blood (5000393) for ContainTreasure */
-     , (5000322, 9, 5000498,  0, 0, 0.2, False) /* Create Large Dragon Scale (5000498) for ContainTreasure */;
+     , (5000322, 9, 5000498,  0, 0, 0.02, False) /* Create Large Dragon Scale (5000498) for ContainTreasure */;

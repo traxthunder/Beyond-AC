@@ -19,7 +19,8 @@ VALUES (5000522,   1,          2) /* ItemType - Armor */
      , (5000522,  52,          3) /* ParentLocation - Shield */
      , (5000522,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5000522, 106,        250) /* ItemSpellcraft */
-     , (5000522, 108,       1301) /* ItemMaxMana */
+     , (5000522, 107,       2000) /* ItemCurMana */
+     , (5000522, 108,       2000) /* ItemMaxMana */
      , (5000522, 109,        325) /* ItemDifficulty */
      , (5000522, 114,          1) /* Attuned - Attuned */
      , (5000522, 150,        103) /* HookPlacement - Hook */

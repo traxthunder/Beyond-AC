@@ -19,7 +19,7 @@ VALUES (5000321,   1,         16) /* ItemType - Creature */
      , (5000321, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (5000321, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5000321, 140,          1) /* AiOptions - CanOpenDoors */
-     , (5000321, 146,  500000000) /* XpOverride */
+     , (5000321, 146,  50000000) /* XpOverride */
      , (5000321, 332,        500) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -41,8 +41,8 @@ VALUES (5000321,   1,       5) /* HeartbeatInterval */
      , (5000321,  13,       0) /* ArmorModVsSlash */
      , (5000321,  14,       0) /* ArmorModVsPierce */
      , (5000321,  15,       0) /* ArmorModVsBludgeon */
-     , (5000321,  16,     0.5) /* ArmorModVsCold */
-     , (5000321,  17,       0) /* ArmorModVsFire */
+     , (5000321,  16,     0) /* ArmorModVsCold */
+     , (5000321,  17,      1) /* ArmorModVsFire */
      , (5000321,  18,       0) /* ArmorModVsAcid */
      , (5000321,  19,       0) /* ArmorModVsElectric */
      , (5000321,  31,      24) /* VisualAwarenessRange */
@@ -53,7 +53,7 @@ VALUES (5000321,   1,       5) /* HeartbeatInterval */
      , (5000321,  65,       0) /* ResistPierce */
      , (5000321,  66,       0) /* ResistBludgeon */
      , (5000321,  67,       0) /* ResistFire */
-     , (5000321,  68, 0.0500000007450581) /* ResistCold */
+     , (5000321,  68,       .1) /* ResistCold */
      , (5000321,  69,       0) /* ResistAcid */
      , (5000321,  70,       0) /* ResistElectric */
      , (5000321,  71,       1) /* ResistHealthBoost */
@@ -66,10 +66,10 @@ VALUES (5000321,   1,       5) /* HeartbeatInterval */
      , (5000321, 104,      10) /* ObviousRadarRange */
      , (5000321, 122,       2) /* AiAcquireHealth */
      , (5000321, 125,       0) /* ResistHealthDrain */
-     , (5000321, 166,       0) /* ResistNether */;
+     , (5000321, 166,       0.05) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5000321,   1, 'Ember') /* Name */;
+VALUES (5000321,   1, 'Terror') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5000321,   1,   33558554) /* Setup */
@@ -105,12 +105,12 @@ VALUES (5000321,  6, 0, 3, 0, 387, 0, 0) /* MeleeDefense        Specialized */
      , (5000321, 32, 0, 3, 0, 405, 0, 0) /* ItemEnchantment     Specialized */
      , (5000321, 33, 0, 3, 0, 405, 0, 0) /* LifeMagic           Specialized */
      , (5000321, 34, 0, 3, 0, 410, 0, 0) /* WarMagic            Specialized */
-     , (5000321, 45, 0, 3, 0, 350, 0, 0) /* LightWeapons        Specialized */;
+     , (5000321, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (5000321,  0, 16, 425,  0.5, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
-     , (5000321, 10, 16, 500,  0.5, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
-     , (5000321, 13, 16, 600,  0.5, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
+VALUES (5000321,  0, 16, 2425,  0.5, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
+     , (5000321, 10, 16, 2500,  0.5, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 3,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
+     , (5000321, 13, 16, 2600,  0.5, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
      , (5000321, 16,  4,  0,    0, 3650,  682,  650,  618,  618,  780,  780,  618,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */
      , (5000321, 22,  8, 75,  0.5, 3000,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
