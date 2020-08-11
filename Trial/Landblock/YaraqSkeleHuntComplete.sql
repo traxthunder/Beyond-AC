@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 	VALUES (9123113, -1, 35097, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (35097) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-	, (9123113, -1, 31013, 180, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31013) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-	, (9123113, -1, 31014, 180, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31014) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+	, (9123113, -1, 31013,  0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31013) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+	, (9123113, -1, 31014,  0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31014) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
 	, (9123113, -1, 35097, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (35097) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-	, (9123113, -1, 31013, 180, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31013) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-	, (9123113, -1, 31014, 180, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31014) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+	, (9123113, -1, 31013,  0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31013) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+	, (9123113, -1, 31014,  0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31014) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
 	, (9123113, -1, 35097, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (35097) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-	, (9123113, -1, 31013, 180, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31013) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-	, (9123113, -1, 31014, 180, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31014) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+	, (9123113, -1, 31013,  0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31013) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+	, (9123113, -1, 31014,  0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mob (31014) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
 
 
 INSERT INTO `landblock_instance` (`weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -154,10 +154,10 @@ INSERT INTO `landblock_instance` (`weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, 
 	VALUES (9123113, 2576023581, 74.037506, 98.878708, 48.005001, 0.285527, 0.000000, 0.000000, -0.958371, False, '2019-07-27 14:14:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 998B001D 74.037506 98.878708 48.005001 0.285527 0.000000 0.000000 -0.958371 */;
 
-INSERT INTO `ace_world`.`quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`) VALUES ('5000010', 'ym1', '0', '1', 'Yaraq Maiden', '2019-09-05 22:37:00');
-INSERT INTO `ace_world`.`quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`) VALUES ('5000009', 'ym2', '0', '1', 'Yaraq Maiden', '2019-09-05 22:37:00');
-INSERT INTO `ace_world`.`quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`) VALUES ('5000008', 'ym3', '0', '1', 'Yaraq Maiden', '2019-09-05 22:37:00');
-INSERT INTO `ace_world`.`quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`) VALUES ('5000007', 'ym4', '0', '1', 'Yaraq Maiden', '2019-09-05 22:37:00');
+INSERT INTO `ace_world`.`quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`) VALUES ('5990010', 'ym1', '0', '1', 'Yaraq Maiden', '2019-09-05 22:37:00');
+INSERT INTO `ace_world`.`quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`) VALUES ('5990009', 'ym2', '0', '1', 'Yaraq Maiden', '2019-09-05 22:37:00');
+INSERT INTO `ace_world`.`quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`) VALUES ('5990008', 'ym3', '0', '1', 'Yaraq Maiden', '2019-09-05 22:37:00');
+INSERT INTO `ace_world`.`quest` (`id`, `name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`) VALUES ('5990007', 'ym4', '0', '1', 'Yaraq Maiden', '2019-09-05 22:37:00');
 
 INSERT INTO `landblock_instance` (`weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 	VALUES (2000012, 2103705619, 63.011024, 57.183128, 12.004999, -0.955487, 0.000000, 0.000000, -0.295032, False, '2019-07-27 14:14:00'); /* Linkable Monster Generator ( 5 Min.) */
