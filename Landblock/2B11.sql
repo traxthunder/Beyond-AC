@@ -1,5 +1,10 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x2B11;
 
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72B11001, 5000998, 0x2B110037, 156.34317, 158.97406, 48.005, 0.741392, 0, 0, -0.6710722, False, '2020-08-11 03:35:16'); /* Morgan Hawkins */
+/* @teleloc 0x2B110037 [156.343170 158.974060 48.005001] 0.741392 0.000000 0.000000 -0.671072 */
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B11007,  1969, 0x2B110000, 122.498, 40.0265, 22.5783, -0.995546, 0, 0, 0.094276, False, '2005-02-09 10:00:00'); /* High Direlands Desert Undead Generator */
 /* @teleloc 0x2B110000 [122.498001 40.026501 22.578300] -0.995546 0.000000 0.000000 0.094276 */
@@ -215,5 +220,5 @@ VALUES (0x72B11052, 34726, 0x2B110016, 48.9044, 136.333, 48.055, 0.411724, 0, 0,
 /* @teleloc 0x2B110016 [48.904400 136.332993 48.055000] 0.411724 0.000000 0.000000 0.911309 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72B11053, 5000798, 0x2B110030, 123.810875, 172.5439, 48.055, -0.41460434, 0, 0, 0.9100018, False, '2020-06-13 16:15:40'); /* Advocate Blessing */
-/* @teleloc 0x2B110030 [123.810875 172.543900 48.055000] -0.414604 0.000000 0.000000 0.910002 */
+VALUES (0x72B11053, 5000798, 0x2B110030, 123.811, 172.544, 48.055, -0.414604, 0, 0, 0.910002, False, '2020-06-13 16:15:40'); /* Advocate Blessing */
+/* @teleloc 0x2B110030 [123.810997 172.544006 48.055000] -0.414604 0.000000 0.000000 0.910002 */
