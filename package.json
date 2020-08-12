@@ -1,0 +1,21 @@
+{
+  "name": "beyond-ac",
+  "version": "1.0.0",
+  "description": "Custom Asheron's Call Content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mergeSQL": "cat **/*.sql > all_sql.sql",
+    "server": "cd C:/ACE/Server && C:/ACE/Server/ACE.Server.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/traxthunder/Beyond-AC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/traxthunder/Beyond-AC/issues"
+  },
+  "homepage": "https://github.com/traxthunder/Beyond-AC#readme"
+}
