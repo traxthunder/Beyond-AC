@@ -298,7 +298,7 @@ VALUES (0x7B470510, 5000806, 0xB470015B, 128.813, 126.777, 50.405, -0.912602, 0,
 /* @teleloc 0xB470015B [128.813004 126.777000 50.404999] -0.912602 0.000000 0.000000 0.408849 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B470423, 5000998, 0xB470015B, 135.370, 137.712, 50.405, -0.337483, 0, 0, -0.941331, False, '2020-07-27 21:01:00'); /* Sandstone Salvage */
+VALUES (0x7B470423, 5000999, 0xB470015B, 135.370, 137.712, 50.405, -0.337483, 0, 0, -0.941331, False, '2020-07-27 21:01:00'); /* Sandstone Salvage */
 /* @teleloc  0xB470015B [135.37079 137.71292 50.405] -0.33748358 0 0 -0.94133145 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

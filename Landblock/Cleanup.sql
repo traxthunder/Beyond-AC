@@ -1,4 +1,4 @@
-DELETE FROM `ace_world`.`landblock_instance` WHERE (`guid` = '2076835838');
+DELETE FROM landblock_instance WHERE guid=2076835838;
 
 DELETE FROM landblock_instance WHERE weenie_Class_Id=20205; 
 DELETE FROM landblock_instance WHERE weenie_Class_Id=20206; 
