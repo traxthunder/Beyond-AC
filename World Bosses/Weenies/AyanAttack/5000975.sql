@@ -63,7 +63,7 @@ VALUES (5000975,   1,       5) /* HeartbeatInterval */
      , (5000975, 125,     0.5) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5000975,   1, 'Big Bad BugA') /* Name */;
+VALUES (5000975,   1, 'Big Bad Bug') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5000975,   1,   33557165) /* Setup */
